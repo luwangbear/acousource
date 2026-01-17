@@ -270,3 +270,8 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
+collections:
+  products:
+    output: true
+    permalink: /products/:name/

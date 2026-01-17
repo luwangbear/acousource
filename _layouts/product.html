@@ -1,0 +1,31 @@
+---
+layout: page
+format: product
+---
+
+<article class="product-detail">
+
+    <h1>{{ page.title }}</h1>
+    <p class="model">Model: {{ page.model }}</p>
+
+    <div class="product-gallery">
+        {% for img in page.images %}
+        <img src="{{ site.urlimg }}{{ img }}" alt="{{ page.title }}">
+        {% endfor %}
+    </div>
+
+    <div class="product-specs">
+        <ul>
+            <li>Diameter: {{ page.diameter }} inch</li>
+            <li>Impedance: {{ page.impedance }}</li>
+            <li>Power (RMS): {{ page.power_rms }} W</li>
+            <li>Sensitivity: {{ page.sensitivity }}</li>
+            <li>Application: {{ page.application }}</li>
+        </ul>
+    </div>
+
+    <div class="product-description">
+        {{ page.description }}
+    </div>
+
+</article>

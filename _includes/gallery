@@ -25,12 +25,16 @@
 *
 {% endcomment %}
 <div>
-	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
-		{% for item in page.gallery %}
-		{% capture url %}{{ item.image_url }}{% endcapture %}
-		{% assign split_url = url | split: '.' %}
-		{% capture thumb_url %}{{split_url[0]}}-thumb.{{split_url[1]}}{% endcapture %}
-		<li><a href="{{ site.urlimg }}{{ item.image_url }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ thumb_url }}" alt="{{ item.caption }}"></a></li>
+	<ul class="medium-block-grid-3">
+		{% for item in site.products %}
+		<li>
+		<div class="th">
+        <a href="{{ item.url }}">
+		    <img src="{{ site.urlimg }}{{ item.thumb_image }}" alt="{{ item.title }}">
+		    <h6> {{ item.title }}</h6>
+        </a>
+		</div>
+		</li>
 		{% endfor %}
 	</ul>
 </div>
