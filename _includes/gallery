@@ -29,7 +29,7 @@
 		{% for item in site.products %}
 		<li>
 		<div class="th">
-        <a href="{{ item.url }}">
+        <a href="{{ site.baseurl }}{{ item.url }}">
 		    <img src="{{ site.urlimg }}{{ item.thumb_image }}" alt="{{ item.title }}">
 		    <h6> {{ item.title }}</h6>
         </a>
