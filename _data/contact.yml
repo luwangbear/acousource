@@ -1,0 +1,18 @@
+- menu_name: "Contact Us"
+
+- name: Address
+  class: icon-home
+  title: "No.2 Hujia Road, Jiashan County, Zhejiang Province, China"
+
+- name: Email
+  class: icon-mail
+  title: "xxxxx@xxxxxx"
+
+- name: Whatsapp
+  class: icon-paper-plane
+  title: "+31 xxxxxxxx"
+
+- name: Phone
+  class: fa fa-phone
+  title: "+86 xxxxxxxx"
+

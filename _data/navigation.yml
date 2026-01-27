@@ -2,7 +2,7 @@
   url: "/"
   side: right
 
-- title: About us
+- title: About Us
   url: "/about-us/"
   side: right
 
@@ -11,7 +11,7 @@
   side: right
 
 - title: "OEM Service"
-  url: "/headers/"
+  url: "/oem-service/"
   side: right
   dropdown:
   - title: "Header with Full-Width-Image"

@@ -267,12 +267,12 @@ body.video cite { color: #fff; }
 
 #footer-content p,
 #footer-content li {
-    font-size: rem-calc(13);
+    font-size: rem-calc(15);
     font-weight: 300;
 }
 
 #footer {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
     background: $footer-bg;
     color: $footer-color;
@@ -284,8 +284,9 @@ body.video cite { color: #fff; }
     #footer h4,
     #footer h5 {
         letter-spacing: 1px;
+        line-height: 2.5;
         color: #fff;
-        text-transform: uppercase;
+        #text-transform: uppercase;
     }
 
 
@@ -296,7 +297,8 @@ body.video cite { color: #fff; }
 #subfooter {
     background: $subfooter-bg;
     color: $subfooter-color;
-    padding-top: 30px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 #subfooter-left ul.inline-list {
@@ -325,7 +327,7 @@ body.video cite { color: #fff; }
     width: 36px;
     border-radius: 50%;
     color: $subfooter-bg;
-    background: $subfooter-color;
+    background: #fff;
     text-align: center;
     &:hover {
       background: $subfooter-bg;
