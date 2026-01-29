@@ -175,6 +175,10 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         margin-bottom: 0;
       }
 
+      img {
+          height: $topbar-height;
+      }
+
       input {
         height: $topbar-input-height;
         padding-top: .35rem;
