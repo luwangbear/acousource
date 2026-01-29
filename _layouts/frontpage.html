@@ -7,7 +7,8 @@ format: frontpage
     <article itemscope itemtype="http://schema.org/Article">
         <header>
             <div itemprop="name">
-                {% if page.title %}<p class="title">{{ page.title }}</p>{% endif %}
+                {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+                {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
             </div>
         </header>
 

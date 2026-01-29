@@ -291,11 +291,12 @@ mark {
     font-size: rem-calc(16);
     margin: 0;
 }
-.title {
-    font-size: rem-calc(24);
-    color:  $grey-9;
-    font-weight: bold;
-}
+// TODO remove me
+// .title {
+//     font-size: rem-calc(24);
+//     color:  $grey-9;
+//     font-weight: bold;
+// }
 .teaser {
     font-size: rem-calc(20);
 }
