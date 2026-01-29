@@ -1,7 +1,7 @@
 ---
 layout: product
 breadcrumb: true
-
+header: no
 title: "18 Inch Subwoofer"
 model: "SS-18SW1200"
 diameter: 18

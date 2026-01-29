@@ -1,7 +1,7 @@
 ---
 layout: product
 breadcrumb: true
-
+header: no
 title: "12 Inch Woofer"
 model: "SS-12W450"
 diameter: 12

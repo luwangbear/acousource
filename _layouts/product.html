@@ -1,31 +1,300 @@
 ---
-layout: page
+layout: page-fullwidth
 format: product
 ---
 
 <article class="product-detail">
+    <div class="container">
+        <div class="row">
+            <div class="medium-6 columns product-img">
+                <div class="simple-carousel" data-zoom="2.2">
+                    <!-- controls -->
+                    <input type="radio" name="carousel" id="img1" checked>
+                    <input type="radio" name="carousel" id="img2">
+                    <input type="radio" name="carousel" id="img3">
 
-    <h1>{{ page.title }}</h1>
-    <p class="model">Model: {{ page.model }}</p>
+                    <!-- main image stage -->
+                    <div class="carousel-main">
+                        <!-- Each slide uses a background image for the zoom layer.
+                             Replace the URLs with your own images. -->
+                        <div class="zoom-stage img1" style="--img: url('{{ site.urlimg }}/gw1.jpg');" aria-label="Image 1"></div>
+                        <div class="zoom-stage img2" style="--img: url('{{ site.urlimg }}/gw2.jpg');" aria-label="Image 2"></div>
+                        <div class="zoom-stage img3" style="--img: url('{{ site.urlimg }}/gw3.jpg');" aria-label="Image 3"></div>
+                    </div>
 
-    <div class="product-gallery">
-        {% for img in page.images %}
-        <img src="{{ site.urlimg }}{{ img }}" alt="{{ page.title }}">
-        {% endfor %}
-    </div>
+                    <!-- thumbnails -->
+                    <div class="carousel-thumbs">
+                        <label for="img1"><img src="{{ site.urlimg }}/gw1.jpg" alt="Thumbnail 1"></label>
+                        <label for="img2"><img src="{{ site.urlimg }}/gw2.jpg" alt="Thumbnail 2"></label>
+                        <label for="img3"><img src="{{ site.urlimg }}/gw3.jpg" alt="Thumbnail 3"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="medium-6 columns mod-detail">
+                <h3>8FW50P1   LF  Drivers  8  inchs</h3>
+                <div class="mod-detail__cont">
+                    <br>
+                    -&nbsp;<strong>2 INCH COPPER VOICE COIL</strong><br>
+                    &nbsp;<br>
+                    -&nbsp;<strong>93.8 dB/SPL SENSITIVITY</strong><br>
+                    &nbsp;<br>
+                    -&nbsp;<strong>400 WATT PROGRAM POWER HANDING</strong><br>
+                    &nbsp;<br>
+                    -&nbsp;<strong>FEM OPTIMIZED MOTOR AND SUSPENSIONS</strong><br>
+                    &nbsp;<br>
+                    -&nbsp;<strong>OPTIMIZED COOLING SYSTEM</strong><br>
+                    &nbsp;<br>
+                    -&nbsp;<strong>RESONANCE FREE AND HEAVY DUTY BASKET DESIGN</strong></div>
+            </div>
+        </div>
+        <hr>
+        <!-- /row -->
+        <div class="row">
+            <div class="medium-6 columns mod-detail">
+                <h4>GENERAL SPECIFICATIONS</h4>
+                <div class="mod-detail__cont">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <th>Nominal diameter</th>
+                            <td>210(8) mm (in.)</td>
+                        </tr>
+                        <tr>
+                            <th>Nominal impedance</th>
+                            <td>8 Ω</td>
+                        </tr>
+                        <tr>
+                            <th>Minimum impedance</th>
+                            <td>6.4 Ω</td>
+                        </tr>
+                        <tr>
+                            <th>Program power (1)</th>
+                            <td>400 W</td>
+                        </tr>
+                        <tr>
+                            <th>AES Power rating(2)</th>
+                            <td>200 W</td>
+                        </tr>
+                        <tr>
+                            <th>Sensitivity (3)</th>
+                            <td>93.8 dB</td>
+                        </tr>
+                        <tr>
+                            <th>Frequency range</th>
+                            <td>66~4500 Hz</td>
+                        </tr>
+                        <tr>
+                            <th>Voice coil diameter</th>
+                            <td>50(2) mm (in.)</td>
+                        </tr>
+                        <tr>
+                            <th>Chassis material</th>
+                            <td>Steel</td>
+                        </tr>
+                        <tr>
+                            <th>Magnet material</th>
+                            <td>Ferrite </td>
+                        </tr>
+                        <tr>
+                            <th>Magnet dimensions (ODxIDxh)</th>
+                            <td>140X60X20 mm</td>
+                        </tr>
+                        <tr>
+                            <th>Coil material</th>
+                            <td>SV</td>
+                        </tr>
+                        <tr>
+                            <th>Former material</th>
+                            <td>Glass Fiber</td>
+                        </tr>
+                        <tr>
+                            <th>Xmax(4)</th>
+                            <td>2.5 mm</td>
+                        </tr>
+                        <tr>
+                            <th>Xmech(5)</th>
+                            <td>6.5 mm</td>
+                        </tr>
+                        <tr>
+                            <th>Gap height</th>
+                            <td>8 mm</td>
+                        </tr>
+                        <tr>
+                            <th>Voice coil Winding height</th>
+                            <td>9 mm</td>
+                        </tr>
 
-    <div class="product-specs">
-        <ul>
-            <li>Diameter: {{ page.diameter }} inch</li>
-            <li>Impedance: {{ page.impedance }}</li>
-            <li>Power (RMS): {{ page.power_rms }} W</li>
-            <li>Sensitivity: {{ page.sensitivity }}</li>
-            <li>Application: {{ page.application }}</li>
-        </ul>
-    </div>
+                        <!-- 不同类型产品分类 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
-    <div class="product-description">
-        {{ page.description }}
+            <div class="medium-6 columns mod-detail">
+                <h4>SMALL SIGNAL PARAMETERS</h4>
+                <div class="mod-detail__cont">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <th>DC resistance(Re)</th>
+                            <td>5.6 Ω</td>
+                        </tr>
+                        <tr>
+                            <th>Resonance frequency(Fs)</th>
+                            <td>66 Hz</td>
+                        </tr>
+                        <tr>
+                            <th>Moving mass(Mms)</th>
+                            <td>30 g</td>
+                        </tr>
+                        <tr>
+                            <th>Compliance(Cms)</th>
+                            <td>0.18 mm/N</td>
+                        </tr>
+                        <tr>
+                            <th>Force factor(BL)</th>
+                            <td>15.4 N/A</td>
+                        </tr>
+                        <tr>
+                            <th>Mechanical Q-factor(Qms)</th>
+                            <td>6.18</td>
+                        </tr>
+                        <tr>
+                            <th>Electrical Q-factor(Qes)</th>
+                            <td>0.46</td>
+                        </tr>
+                        <tr>
+                            <th>Total Q-factor(Qts)</th>
+                            <td>0.43</td>
+                        </tr>
+                        <tr>
+                            <th>Equivalent air volume(Vas)</th>
+                            <td>16 I</td>
+                        </tr>
+                        <tr>
+                            <th>Voice coil Inductance(Le)</th>
+                            <td>0.25 mH</td>
+                        </tr>
+                        <tr>
+                            <th>Diaphragm area(Sd)</th>
+                            <td>240 cm<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <th>Reference efficiency(Eta O)</th>
+                            <td>1.2 %</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="medium-6 columns mod-detail">
+                <h4>SHIPPING INFORMATION</h4>
+                <div class="mod-detail__cont">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <th>Net weight</th>
+                            <td>3.2 Kg</td>
+                        </tr>
+                        <tr>
+                            <th>Multipack size (1) (W x D x H)</th>
+                            <td>255 x 255 x 260 mm</td>
+                        </tr>
+                        <tr>
+                            <th>Multipack weight</th>
+                            <td>7.2 Kg</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+        <div class="row tab">
+            <div class="alert-box info">
+                FREQUENCY RESPONSE
+            </div>
+            <ul class="tab-cont">
+                <li class="item" style="display: block;">
+                    <img src="https://www.dbspeakers.com/uploadfile/2020/0428/20200428032553345.jpg" class="img-fluid" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <div class="row tab">
+            <div class="alert-box info">
+                DIMENSIONS
+            </div>
+            <ul class="tab-cont">
+                <li class="item" style="display: block;">
+                    <img src="https://www.dbspeakers.com/uploadfile/2020/0428/20200428032609105.jpg" class="img-fluid" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="row tab">
+            <div class="col-md-12 mod-detail">
+                <div class="alert-box info">
+                    NOTE
+                </div>
+                <div class="mod-detail__cont" id="others-content">(1) Program power is defined as 3 dB greater than AES Power.&nbsp;
+                    <div>(2) Tested for two hours using a continuous, band-limited pink noise signal as per AES 2-1984 Rev. 2003. Loudspeaker tested in free air.</div>
+                    <div>(3) From T/S parameters, measured with LMS DA LPM module.&nbsp;</div>
+                    <div>(4) The Xmax is calculated as: (Hvc - Hg)/2+ Hg/4. Hvc is the voice coil height and Hg the gap height.&nbsp;</div>
+                    <div>(5) The Xmech is calculated as: (Hvc - Hg)/2 +(Hg-2). Hvc is the voice coil height and Hg the gap height.</div>
+                    <div>(6) Thiele-Small parameters are measured after preconditioning: a) at 20°C- 22°C, 50% humidity for 2 hours; b) by LMS LSI measurement.</div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </article>
+
+
+<script>
+    (() => {
+      const root = document.querySelector('.simple-carousel');
+      if (!root) return;
+
+      const zoomFactor = Number(root.dataset.zoom || 2.2);
+      const stages = root.querySelectorAll('.zoom-stage');
+
+      // Enable only on mouse-like pointers (avoid weirdness on touch)
+      const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+      function setZoom(stage, on) {
+        stage.classList.toggle('is-zoomed', on);
+        stage.style.setProperty('--zoom', on ? zoomFactor : 1);
+        if (!on) {
+          stage.style.setProperty('--bgx', '50%');
+          stage.style.setProperty('--bgy', '50%');
+        }
+      }
+
+      stages.forEach(stage => {
+        // Initialize defaults
+        stage.style.setProperty('--zoom', 1);
+        stage.style.setProperty('--bgx', '50%');
+        stage.style.setProperty('--bgy', '50%');
+
+        if (!canHover) return;
+
+        stage.addEventListener('mouseenter', () => setZoom(stage, true));
+        stage.addEventListener('mouseleave', () => setZoom(stage, false));
+
+        stage.addEventListener('mousemove', (e) => {
+          const r = stage.getBoundingClientRect();
+
+          // Mouse position as percentage inside the element
+          const x = ((e.clientX - r.left) / r.width) * 100;
+          const y = ((e.clientY - r.top) / r.height) * 100;
+
+          // Clamp so it never goes out of bounds
+          const cx = Math.max(0, Math.min(100, x));
+          const cy = Math.max(0, Math.min(100, y));
+
+          stage.style.setProperty('--bgx', cx.toFixed(2) + '%');
+          stage.style.setProperty('--bgy', cy.toFixed(2) + '%');
+        }, { passive: true });
+      });
+    })();
+</script>

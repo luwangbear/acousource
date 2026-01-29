@@ -1,7 +1,7 @@
 ---
 layout: product
 breadcrumb: true
-
+header: no
 title: "Square woofer xxx"
 model: "SS-18SW1200"
 diameter: 6

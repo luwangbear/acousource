@@ -1,7 +1,7 @@
 ---
 layout: product
 breadcrumb: true
-
+header: no
 title: "6 Inch Midrange"
 model: "SS-18SW1200"
 diameter: 6
