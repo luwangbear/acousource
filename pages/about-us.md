@@ -1,7 +1,7 @@
 ---
 layout              : page
 show_meta           : false
-title               : "About Sound Source Electronics"
+title               : "About AcouSource Electronics"
 permalink           : "/about-us/"
 ---
 <img src="{{ site.urlimg }}factory.png" alt="">
