@@ -86,15 +86,5 @@ s0.parentNode.insertBefore(s1,s0);
         }, { passive: true });
       });
     })();
-
-    document.querySelectorAll('.carousel-thumbs label').forEach(label => {
-      label.addEventListener('click', e => {
-        const id = label.getAttribute('for');
-        const input = document.getElementById(id);
-        if (input) {
-          input.checked = true;
-        }
-      });
-    });
 </script>
 
