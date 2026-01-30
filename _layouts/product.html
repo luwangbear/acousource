@@ -17,34 +17,26 @@ format: product
                     <div class="carousel-main">
                         <!-- Each slide uses a background image for the zoom layer.
                              Replace the URLs with your own images. -->
-                        <div class="zoom-stage img1" style="--img: url('{{ site.urlimg }}/gw1.jpg');" aria-label="Image 1"></div>
-                        <div class="zoom-stage img2" style="--img: url('{{ site.urlimg }}/gw2.jpg');" aria-label="Image 2"></div>
-                        <div class="zoom-stage img3" style="--img: url('{{ site.urlimg }}/gw3.jpg');" aria-label="Image 3"></div>
+                        <div class="zoom-stage img1" style="--img: url('{{ site.urlimg }}{{ page.model }}/p1.jpg');" aria-label="Image 1"></div>
+                        <div class="zoom-stage img2" style="--img: url('{{ site.urlimg }}{{ page.model }}/p2.jpg');" aria-label="Image 2"></div>
+                        <div class="zoom-stage img3" style="--img: url('{{ site.urlimg }}{{ page.model }}/p3.jpg');" aria-label="Image 3"></div>
                     </div>
 
                     <!-- thumbnails -->
                     <div class="carousel-thumbs">
-                        <label for="img1"><img src="{{ site.urlimg }}/gw1.jpg" alt="Thumbnail 1"></label>
-                        <label for="img2"><img src="{{ site.urlimg }}/gw2.jpg" alt="Thumbnail 2"></label>
-                        <label for="img3"><img src="{{ site.urlimg }}/gw3.jpg" alt="Thumbnail 3"></label>
+                        <label for="img1"><img src="{{ site.urlimg }}{{ page.model }}/p1.jpg" alt="Thumbnail 1"></label>
+                        <label for="img2"><img src="{{ site.urlimg }}{{ page.model }}/p2.jpg" alt="Thumbnail 2"></label>
+                        <label for="img3"><img src="{{ site.urlimg }}{{ page.model }}/p3.jpg" alt="Thumbnail 3"></label>
                     </div>
                 </div>
             </div>
             <div class="medium-6 columns mod-detail">
-                <h3>8FW50P1   LF  Drivers  8  inchs</h3>
+                <h3>{{ page.title }}</h3>
+                <h5> {{ page.description }}</h5>
                 <div class="mod-detail__cont">
-                    <br>
-                    -&nbsp;<strong>2 INCH COPPER VOICE COIL</strong><br>
-                    &nbsp;<br>
-                    -&nbsp;<strong>93.8 dB/SPL SENSITIVITY</strong><br>
-                    &nbsp;<br>
-                    -&nbsp;<strong>400 WATT PROGRAM POWER HANDING</strong><br>
-                    &nbsp;<br>
-                    -&nbsp;<strong>FEM OPTIMIZED MOTOR AND SUSPENSIONS</strong><br>
-                    &nbsp;<br>
-                    -&nbsp;<strong>OPTIMIZED COOLING SYSTEM</strong><br>
-                    &nbsp;<br>
-                    -&nbsp;<strong>RESONANCE FREE AND HEAVY DUTY BASKET DESIGN</strong></div>
+                    {% for note in page.notes %}
+                    <br> <strong> - {{ note }} </strong><br>
+                    {% endfor %}
             </div>
         </div>
         <hr>
@@ -57,71 +49,71 @@ format: product
                         <tbody>
                         <tr>
                             <th>Nominal diameter</th>
-                            <td>210(8) mm (in.)</td>
+                            <td>{{ page.nominal_diameter }}</td>
                         </tr>
                         <tr>
                             <th>Nominal impedance</th>
-                            <td>8 Ω</td>
+                            <td>{{ page.nominal_impedance }}</td>
                         </tr>
                         <tr>
                             <th>Minimum impedance</th>
-                            <td>6.4 Ω</td>
+                            <td>{{ page.minimum_impedance }}</td>
                         </tr>
                         <tr>
                             <th>Program power (1)</th>
-                            <td>400 W</td>
+                            <td>{{ page.program_power }}</td>
                         </tr>
                         <tr>
                             <th>AES Power rating(2)</th>
-                            <td>200 W</td>
+                            <td>{{ page.AES_power }}</td>
                         </tr>
                         <tr>
                             <th>Sensitivity (3)</th>
-                            <td>93.8 dB</td>
+                            <td>{{ page.sensitivity }}</td>
                         </tr>
                         <tr>
                             <th>Frequency range</th>
-                            <td>66~4500 Hz</td>
+                            <td>{{ page.frequency_range }}</td>
                         </tr>
                         <tr>
                             <th>Voice coil diameter</th>
-                            <td>50(2) mm (in.)</td>
+                            <td>{{ page.voice_coil_diameter }}</td>
                         </tr>
                         <tr>
                             <th>Chassis material</th>
-                            <td>Steel</td>
+                            <td>{{ page.chassis_material }}</td>
                         </tr>
                         <tr>
                             <th>Magnet material</th>
-                            <td>Ferrite </td>
+                            <td>{{ page.magnet_material }}</td>
                         </tr>
                         <tr>
                             <th>Magnet dimensions (ODxIDxh)</th>
-                            <td>140X60X20 mm</td>
+                            <td>{{ page.magnet_dimension }}</td>
                         </tr>
                         <tr>
                             <th>Coil material</th>
-                            <td>SV</td>
+                            <td>{{ page.coil_material }}</td>
                         </tr>
                         <tr>
                             <th>Former material</th>
-                            <td>Glass Fiber</td>
+                            <td>{{ page.former_material }}</td>
                         </tr>
                         <tr>
                             <th>Xmax(4)</th>
-                            <td>2.5 mm</td>
+                            <td>{{ page.xmax }}</td>
                         </tr>
                         <tr>
                             <th>Xmech(5)</th>
-                            <td>6.5 mm</td>
+                            <td>{{ page.xmech }}</td>
                         </tr>
                         <tr>
                             <th>Gap height</th>
-                            <td>8 mm</td>
+                            <td>{{ page.gap_height }}</td>
                         </tr>
                         <tr>
                             <th>Voice coil Winding height</th>
-                            <td>9 mm</td>
+                            <td>{{ page.voice_coil_winding_height }}</td>
                         </tr>
 
                         <!-- 不同类型产品分类 -->
@@ -137,51 +129,51 @@ format: product
                         <tbody>
                         <tr>
                             <th>DC resistance(Re)</th>
-                            <td>5.6 Ω</td>
+                            <td>{{ page.re }}</td>
                         </tr>
                         <tr>
                             <th>Resonance frequency(Fs)</th>
-                            <td>66 Hz</td>
+                            <td>{{ page.fs }}</td>
                         </tr>
                         <tr>
                             <th>Moving mass(Mms)</th>
-                            <td>30 g</td>
+                            <td>{{ page.mms }}</td>
                         </tr>
                         <tr>
                             <th>Compliance(Cms)</th>
-                            <td>0.18 mm/N</td>
+                            <td>{{ page.cms }}</td>
                         </tr>
                         <tr>
                             <th>Force factor(BL)</th>
-                            <td>15.4 N/A</td>
+                            <td>{{ page.bl }}</td>
                         </tr>
                         <tr>
                             <th>Mechanical Q-factor(Qms)</th>
-                            <td>6.18</td>
+                            <td>{{ page.qms }}</td>
                         </tr>
                         <tr>
                             <th>Electrical Q-factor(Qes)</th>
-                            <td>0.46</td>
+                            <td>{{ page.qes }}</td>
                         </tr>
                         <tr>
                             <th>Total Q-factor(Qts)</th>
-                            <td>0.43</td>
+                            <td>{{ page.qts }}</td>
                         </tr>
                         <tr>
                             <th>Equivalent air volume(Vas)</th>
-                            <td>16 I</td>
+                            <td>{{ page.vas }}</td>
                         </tr>
                         <tr>
                             <th>Voice coil Inductance(Le)</th>
-                            <td>0.25 mH</td>
+                            <td>{{ page.le }}</td>
                         </tr>
                         <tr>
                             <th>Diaphragm area(Sd)</th>
-                            <td>240 cm<sup>2</sup></td>
+                            <td>{{ page.sd }}</td>
                         </tr>
                         <tr>
                             <th>Reference efficiency(Eta O)</th>
-                            <td>1.2 %</td>
+                            <td>{{ page.eta_0 }}</td>
                         </tr>
                         </tbody>
                     </table>
@@ -193,16 +185,32 @@ format: product
                     <table>
                         <tbody>
                         <tr>
+                            <th>Overall Diameter</th>
+                            <td>{{ page.overall_diameter }}</td>
+                        </tr>
+                        <tr>
+                            <th>Depth</th>
+                            <td>{{ page.depth }}</td>
+                        </tr>
+                        <tr>
+                            <th>Bolt Circle Diameter</th>
+                            <td>{{ page.bolt_circle_diameter }}</td>
+                        </tr>
+                        <tr>
+                            <th>Mount Baffle  Cut-out</th>
+                            <td>{{ page.mount_baffle_cut_out }}</td>
+                        </tr>
+                        <tr>
+                            <th>Shipping Size (1  pc)</th>
+                            <td>{{ page.shipping_size }}</td>
+                        </tr>
+                        <tr>
                             <th>Net weight</th>
-                            <td>3.2 Kg</td>
+                            <td>{{ page.net_weight }}</td>
                         </tr>
                         <tr>
-                            <th>Multipack size (1) (W x D x H)</th>
-                            <td>255 x 255 x 260 mm</td>
-                        </tr>
-                        <tr>
-                            <th>Multipack weight</th>
-                            <td>7.2 Kg</td>
+                            <th>Gross weight</th>
+                            <td>{{ page.gross_weight }}</td>
                         </tr>
                         </tbody>
                     </table>
@@ -216,7 +224,7 @@ format: product
             </div>
             <ul class="tab-cont">
                 <li class="item" style="display: block;">
-                    <img src="https://www.dbspeakers.com/uploadfile/2020/0428/20200428032553345.jpg" class="img-fluid" alt="">
+                    <img src="{{ site.urlimg }}{{ page.model }}/spl.jpg" class="img-fluid" alt="">
                 </li>
             </ul>
         </div>
@@ -227,7 +235,7 @@ format: product
             </div>
             <ul class="tab-cont">
                 <li class="item" style="display: block;">
-                    <img src="https://www.dbspeakers.com/uploadfile/2020/0428/20200428032609105.jpg" class="img-fluid" alt="">
+                    <img src="{{ site.urlimg }}{{ page.model }}/dimensions.jpg" class="img-fluid" alt="">
                 </li>
             </ul>
         </div>
