@@ -44,3 +44,14 @@
     }, { passive: true });
   });
 })();
+
+
+document.querySelectorAll('.carousel-thumbs label').forEach(label => {
+  label.addEventListener('click', e => {
+    const id = label.getAttribute('for');
+    const input = document.getElementById(id);
+    if (input) {
+      input.checked = true;
+    }
+  });
+});
