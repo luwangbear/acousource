@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: "AcouSource Electronics"
+title: "AcouSource Audio"
 teaser: "Located in Zhejiang, China, AcouSource has been designing and manufacturing speaker products since 2000, specializing in woofer, subwoofer, and midrange drivers. We provide OEM services to global clients. Our mission is to deliver high-quality audio solutions that meet the diverse needs of our customers."
 categories:
   - design
