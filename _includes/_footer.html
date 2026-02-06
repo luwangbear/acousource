@@ -18,8 +18,8 @@
             <ul class="no-bullet shadow-black">
               {% for contact_item in site.data.contact %}
               {% if forloop.first == true %}{% continue %}{% endif %}
-              <li {% if contact_item.class %}class="{{ contact_item.class }}" {% endif %}>
-                {{contact_item.icon}} {{ contact_item.name }}: {{ contact_item.title }}
+              <li>
+                <i class="{{contact_item.class}}"></i> {{ contact_item.name }}: {{ contact_item.title }}
               </li>
               {% endfor %}
             </ul>
