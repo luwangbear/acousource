@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: page
 title: "OEM service"
 permalink: "/oem-service/"
 ---
