@@ -43,8 +43,8 @@ qes: "1.05"
 qts: "0.20"
 vas: "1.2 L"
 
-# le: "0.25 mH"
-# sd: "245 cm²"
+le: "0.15 mH"
+sd: "54.1 cm²"
 # eta_0: "1.2 %"
 
 #shipping and mounting
