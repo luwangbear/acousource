@@ -2,8 +2,8 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1570SC 12 Inch Woofer"
-model: "SPW-1570SC"
+title: "SPW-1550SC 15 Inch Woofer"
+model: "SPW-1550SC"
 images:
   - p1.png
   - p2.png
@@ -18,12 +18,12 @@ notes:
 # General specifications
 nominal_diameter: "15 inch"
 nominal_impedance: "8 Ω"
-magnet_weight: "70 oz"
+magnet_weight: "50 oz"
 voice_coil_diameter: "2 inch"
-power_rating: "300W RMS"
-peak_power: "500W"
-sensitivity: "93+2 dB 啥意思？"
-frequency_range: "40~3000 Hz"
+power_rating: "180W RMS"
+peak_power: "220W"
+sensitivity: "94+2 dB"
+frequency_range: "35~6000 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
@@ -33,15 +33,15 @@ magnet_material: "Ferrite"
 basket_material: "Steel"
 
 # T/S parameters
-fs: "55.2 Hz"
-re: "5.4 Ω"
-mms: "133.3 g"
-cms: "0.06 mm/N"
-bl: "17.2 N/A"
-qms: "4.71"
-qes: "0.85"
-qts: "0.72"
-vas: "71.9 L"
+fs: "31.8 Hz"
+re: "5.6 Ω"
+mms: "92.5 g"
+cms: "0.27 mm/N"
+bl: "13.5 N/A"
+qms: "3.94"
+qes: "0.57"
+qts: "0.50"
+vas: "277.1 L"
 
 # le: "0.25 mH"
 # sd: "245 cm²"

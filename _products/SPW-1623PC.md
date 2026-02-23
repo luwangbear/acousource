@@ -2,8 +2,8 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1570SC 12 Inch Woofer"
-model: "SPW-1570SC"
+title: "SPW-1623PC XXXX Woofer"
+model: "SPW-1623PC"
 images:
   - p1.png
   - p2.png
@@ -16,32 +16,32 @@ notes:
   - OPTIMIZED COOLING SYSTEM
   - RESONANCE FREE AND HEAVY DUTY BASKET DESIGN
 # General specifications
-nominal_diameter: "15 inch"
-nominal_impedance: "8 Ω"
-magnet_weight: "70 oz"
-voice_coil_diameter: "2 inch"
-power_rating: "300W RMS"
-peak_power: "500W"
-sensitivity: "93+2 dB 啥意思？"
-frequency_range: "40~3000 Hz"
+nominal_diameter: "6x9 inch"
+nominal_impedance: "4 Ω"
+magnet_weight: "6.5 oz"
+voice_coil_diameter: "1 inch"
+power_rating: "80W RMS"
+peak_power: "100W"
+sensitivity: "94+2 dB"
+frequency_range: "100~11000 Hz"
 
 coil_material: "Round Copper"
-former_material: "Aluminum"
+former_material: "Polymide"
 cone_material: "Paper"
 surround_material: "Cloth"
 magnet_material: "Ferrite"
-basket_material: "Steel"
+basket_material: "Plastic"
 
 # T/S parameters
-fs: "55.2 Hz"
-re: "5.4 Ω"
-mms: "133.3 g"
-cms: "0.06 mm/N"
-bl: "17.2 N/A"
-qms: "4.71"
-qes: "0.85"
-qts: "0.72"
-vas: "71.9 L"
+fs: "129.3 Hz"
+re: "4.3 Ω"
+mms: "12.9 g"
+cms: "0.12 mm/N"
+bl: "3.7 N/A"
+qms: "3.09"
+qes: "3.22"
+qts: "1.58"
+vas: "28.5 L"
 
 # le: "0.25 mH"
 # sd: "245 cm²"
