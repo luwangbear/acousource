@@ -2,8 +2,8 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPT-33SP 4 Inch Tweeter"
-model: "SPT-33SP"
+title: "SPM-43SP 5 Inch Midrange"
+model: "SPM-43SP"
 images:
   - p1.png
   - p2.png
@@ -16,31 +16,31 @@ notes:
   - OPTIMIZED COOLING SYSTEM
   - RESONANCE FREE AND HEAVY DUTY BASKET DESIGN
 # General specifications
-nominal_diameter: "4 inch"
+nominal_diameter: "5 inch"
 nominal_impedance: "8 Ω"
-magnet_weight: "3 oz"
-voice_coil_diameter: "0.5 inch"
-power_rating: "30W RMS"
-peak_power: "40W"
-sensitivity: "89+2 dB"
-frequency_range: "3000~16000 Hz"
+magnet_weight: "10 oz"
+voice_coil_diameter: "0.75 inch"
+power_rating: "80W RMS"
+peak_power: "120W"
+sensitivity: "91+2 dB"
+frequency_range: "750~11000 Hz"
 
 coil_material: "Round Copper"
-former_material: "Polymide"
+former_material: "Aluminum"
 cone_material: "Paper"
-surround_material: "Paper"
+surround_material: "Foam"
 magnet_material: "Ferrite"
 basket_material: "Steel"
 
 # T/S parameters
-fs: "1469.4 Hz"
-re: "6.6 Ω"
+fs: "840.8 Hz"
+re: "7.2 Ω"
 mms: ""
 cms: ""
 bl: ""
-qms: "3.50"
-qes: "5.11"
-qts: "2.08"
+qms: "3.41"
+qes: "17.39"
+qts: "2.85"
 vas: ""
 
 # le: "0.25 mH"
