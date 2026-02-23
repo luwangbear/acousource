@@ -8,25 +8,34 @@ format: product
         <div class="row">
             <div class="medium-6 columns product-img">
                 <div class="simple-carousel" data-zoom="2.2">
+
+                    {% assign imgs = page.images | slice: 0, 5 %}
+
                     <!-- controls -->
-                    <input type="radio" name="carousel" id="img1" checked>
-                    <input type="radio" name="carousel" id="img2">
-                    <input type="radio" name="carousel" id="img3">
+                    {% for img in imgs %}
+                    <input type="radio"
+                           name="carousel"
+                           id="img{{ forloop.index }}"
+                           {% if forloop.first %}checked{% endif %}>
+                    {% endfor %}
 
                     <!-- main image stage -->
                     <div class="carousel-main">
-                        <!-- Each slide uses a background image for the zoom layer.
-                             Replace the URLs with your own images. -->
-                        <div class="zoom-stage img1" style="--img: url('{{ site.urlimg }}{{ page.model }}/p1.jpg');" aria-label="Image 1"></div>
-                        <div class="zoom-stage img2" style="--img: url('{{ site.urlimg }}{{ page.model }}/p2.jpg');" aria-label="Image 2"></div>
-                        <div class="zoom-stage img3" style="--img: url('{{ site.urlimg }}{{ page.model }}/p3.jpg');" aria-label="Image 3"></div>
+                        {% for img in imgs %}
+                        <div class="zoom-stage img{{ forloop.index }}"
+                             style="--img: url('{{ site.urlimg }}{{ page.model }}/{{ img }}');"
+                             aria-label="Image {{ forloop.index }}">
+                        </div>
+                        {% endfor %}
                     </div>
 
                     <!-- thumbnails -->
                     <div class="carousel-thumbs">
-                        <label for="img1"><img src="{{ site.urlimg }}{{ page.model }}/p1.jpg" alt="Thumbnail 1"></label>
-                        <label for="img2"><img src="{{ site.urlimg }}{{ page.model }}/p2.jpg" alt="Thumbnail 2"></label>
-                        <label for="img3"><img src="{{ site.urlimg }}{{ page.model }}/p3.jpg" alt="Thumbnail 3"></label>
+                        {% for img in imgs %}
+                        <label for="img{{ forloop.index }}">
+                            <img src="{{ site.urlimg }}{{ page.model }}/{{ img }}" alt="Thumbnail {{ forloop.index }}">
+                        </label>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -55,20 +64,24 @@ format: product
                             <th>Nominal impedance</th>
                             <td>{{ page.nominal_impedance }}</td>
                         </tr>
+<!--                        <tr>-->
+<!--                            <th>Minimum impedance</th>-->
+<!--                            <td>{{ page.minimum_impedance }}</td>-->
+<!--                        </tr>-->
                         <tr>
-                            <th>Minimum impedance</th>
-                            <td>{{ page.minimum_impedance }}</td>
+                            <th>Magnet weight</th>
+                            <td>{{ page.magnet_weight }}</td>
                         </tr>
                         <tr>
-                            <th>Program power (1)</th>
-                            <td>{{ page.program_power }}</td>
+                            <th>Power rating </th>
+                            <td>{{ page.power_rating }}</td>
                         </tr>
                         <tr>
-                            <th>AES Power rating(2)</th>
-                            <td>{{ page.AES_power }}</td>
+                            <th>Peak power</th>
+                            <td>{{ page.peak_power }}</td>
                         </tr>
                         <tr>
-                            <th>Sensitivity (3)</th>
+                            <th>Sensitivity</th>
                             <td>{{ page.sensitivity }}</td>
                         </tr>
                         <tr>
@@ -80,17 +93,17 @@ format: product
                             <td>{{ page.voice_coil_diameter }}</td>
                         </tr>
                         <tr>
-                            <th>Chassis material</th>
-                            <td>{{ page.chassis_material }}</td>
+                            <th>basket material</th>
+                            <td>{{ page.basket_material }}</td>
                         </tr>
                         <tr>
                             <th>Magnet material</th>
                             <td>{{ page.magnet_material }}</td>
                         </tr>
-                        <tr>
-                            <th>Magnet dimensions (ODxIDxh)</th>
-                            <td>{{ page.magnet_dimension }}</td>
-                        </tr>
+<!--                        <tr>-->
+<!--                            <th>Magnet dimensions (ODxIDxh)</th>-->
+<!--                            <td>{{ page.magnet_dimension }}</td>-->
+<!--                        </tr>-->
                         <tr>
                             <th>Coil material</th>
                             <td>{{ page.coil_material }}</td>
@@ -100,21 +113,30 @@ format: product
                             <td>{{ page.former_material }}</td>
                         </tr>
                         <tr>
-                            <th>Xmax(4)</th>
-                            <td>{{ page.xmax }}</td>
+                            <th>Cone material</th>
+                            <td>{{ page.cone_material }}</td>
                         </tr>
                         <tr>
-                            <th>Xmech(5)</th>
-                            <td>{{ page.xmech }}</td>
+                            <th>Surround material</th>
+                            <td>{{ page.surround_material }}</td>
                         </tr>
-                        <tr>
-                            <th>Gap height</th>
-                            <td>{{ page.gap_height }}</td>
-                        </tr>
-                        <tr>
-                            <th>Voice coil Winding height</th>
-                            <td>{{ page.voice_coil_winding_height }}</td>
-                        </tr>
+
+<!--                        <tr>-->
+<!--                            <th>Xmax(4)</th>-->
+<!--                            <td>{{ page.xmax }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Xmech(5)</th>-->
+<!--                            <td>{{ page.xmech }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Gap height</th>-->
+<!--                            <td>{{ page.gap_height }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Voice coil Winding height</th>-->
+<!--                            <td>{{ page.voice_coil_winding_height }}</td>-->
+<!--                        </tr>-->
 
                         <!-- 不同类型产品分类 -->
                         </tbody>
@@ -163,95 +185,107 @@ format: product
                             <th>Equivalent air volume(Vas)</th>
                             <td>{{ page.vas }}</td>
                         </tr>
-                        <tr>
-                            <th>Voice coil Inductance(Le)</th>
-                            <td>{{ page.le }}</td>
-                        </tr>
-                        <tr>
-                            <th>Diaphragm area(Sd)</th>
-                            <td>{{ page.sd }}</td>
-                        </tr>
-                        <tr>
-                            <th>Reference efficiency(Eta O)</th>
-                            <td>{{ page.eta_0 }}</td>
-                        </tr>
+<!--                        <tr>-->
+<!--                            <th>Voice coil Inductance(Le)</th>-->
+<!--                            <td>{{ page.le }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Diaphragm area(Sd)</th>-->
+<!--                            <td>{{ page.sd }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Reference efficiency(Eta O)</th>-->
+<!--                            <td>{{ page.eta_0 }}</td>-->
+<!--                        </tr>-->
                         </tbody>
                     </table>
                 </div>
             </div>
-            <div class="medium-6 columns mod-detail">
-                <h4>SHIPPING INFORMATION</h4>
-                <div class="mod-detail__cont">
-                    <table>
-                        <tbody>
-                        <tr>
-                            <th>Overall Diameter</th>
-                            <td>{{ page.overall_diameter }}</td>
-                        </tr>
-                        <tr>
-                            <th>Depth</th>
-                            <td>{{ page.depth }}</td>
-                        </tr>
-                        <tr>
-                            <th>Bolt Circle Diameter</th>
-                            <td>{{ page.bolt_circle_diameter }}</td>
-                        </tr>
-                        <tr>
-                            <th>Mount Baffle  Cut-out</th>
-                            <td>{{ page.mount_baffle_cut_out }}</td>
-                        </tr>
-                        <tr>
-                            <th>Shipping Size (1  pc)</th>
-                            <td>{{ page.shipping_size }}</td>
-                        </tr>
-                        <tr>
-                            <th>Net weight</th>
-                            <td>{{ page.net_weight }}</td>
-                        </tr>
-                        <tr>
-                            <th>Gross weight</th>
-                            <td>{{ page.gross_weight }}</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+<!--            <div class="medium-6 columns mod-detail">-->
+<!--                <h4>SHIPPING INFORMATION</h4>-->
+<!--                <div class="mod-detail__cont">-->
+<!--                    <table>-->
+<!--                        <tbody>-->
+<!--                        <tr>-->
+<!--                            <th>Overall Diameter</th>-->
+<!--                            <td>{{ page.overall_diameter }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Depth</th>-->
+<!--                            <td>{{ page.depth }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Bolt Circle Diameter</th>-->
+<!--                            <td>{{ page.bolt_circle_diameter }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Mount Baffle  Cut-out</th>-->
+<!--                            <td>{{ page.mount_baffle_cut_out }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Shipping Size (1  pc)</th>-->
+<!--                            <td>{{ page.shipping_size }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Net weight</th>-->
+<!--                            <td>{{ page.net_weight }}</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <th>Gross weight</th>-->
+<!--                            <td>{{ page.gross_weight }}</td>-->
+<!--                        </tr>-->
+<!--                        </tbody>-->
+<!--                    </table>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
         <!-- /row -->
         <div class="row tab">
             <div class="alert-box info">
-                FREQUENCY RESPONSE
+                Frequency Response
             </div>
             <ul class="tab-cont">
                 <li class="item" style="display: block;">
-                    <img src="{{ site.urlimg }}{{ page.model }}/spl.jpg" class="img-fluid" alt="">
+                    <img src="{{ site.urlimg }}{{ page.model }}/spl.BMP" class="img-fluid" alt="">
                 </li>
             </ul>
         </div>
 
         <div class="row tab">
             <div class="alert-box info">
-                DIMENSIONS
+                Impedence Curve
             </div>
             <ul class="tab-cont">
                 <li class="item" style="display: block;">
-                    <img src="{{ site.urlimg }}{{ page.model }}/dimensions.jpg" class="img-fluid" alt="">
+                    <img src="{{ site.urlimg }}{{ page.model }}/impedence.BMP" class="img-fluid" alt="">
                 </li>
             </ul>
         </div>
+
         <div class="row tab">
-            <div class="col-md-12 mod-detail">
-                <div class="alert-box info">
-                    NOTE
-                </div>
-                <div class="mod-detail__cont" id="others-content">(1) Program power is defined as 3 dB greater than AES Power.&nbsp;
-                    <div>(2) Tested for two hours using a continuous, band-limited pink noise signal as per AES 2-1984 Rev. 2003. Loudspeaker tested in free air.</div>
-                    <div>(3) From T/S parameters, measured with LMS DA LPM module.&nbsp;</div>
-                    <div>(4) The Xmax is calculated as: (Hvc - Hg)/2+ Hg/4. Hvc is the voice coil height and Hg the gap height.&nbsp;</div>
-                    <div>(5) The Xmech is calculated as: (Hvc - Hg)/2 +(Hg-2). Hvc is the voice coil height and Hg the gap height.</div>
-                    <div>(6) Thiele-Small parameters are measured after preconditioning: a) at 20°C- 22°C, 50% humidity for 2 hours; b) by LMS LSI measurement.</div>
-                </div>
+            <div class="alert-box info">
+                Dimensions
             </div>
+            <ul class="tab-cont">
+                <li class="item" style="display: block;">
+                    <img src="{{ site.urlimg }}{{ page.model }}/dimensions.png" class="img-fluid" alt="">
+                </li>
+            </ul>
+        </div>
+<!--        <div class="row tab">-->
+<!--            <div class="col-md-12 mod-detail">-->
+<!--                <div class="alert-box info">-->
+<!--                    NOTE-->
+<!--                </div>-->
+<!--                <div class="mod-detail__cont" id="others-content">(1) Program power is defined as 3 dB greater than AES Power.&nbsp;-->
+<!--                    <div>(2) Tested for two hours using a continuous, band-limited pink noise signal as per AES 2-1984 Rev. 2003. Loudspeaker tested in free air.</div>-->
+<!--                    <div>(3) From T/S parameters, measured with LMS DA LPM module.&nbsp;</div>-->
+<!--                    <div>(4) The Xmax is calculated as: (Hvc - Hg)/2+ Hg/4. Hvc is the voice coil height and Hg the gap height.&nbsp;</div>-->
+<!--                    <div>(5) The Xmech is calculated as: (Hvc - Hg)/2 +(Hg-2). Hvc is the voice coil height and Hg the gap height.</div>-->
+<!--                    <div>(6) Thiele-Small parameters are measured after preconditioning: a) at 20°C- 22°C, 50% humidity for 2 hours; b) by LMS LSI measurement.</div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
         </div>
     </div>
 
