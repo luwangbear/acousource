@@ -2,8 +2,8 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1260SC 12 Inch woofer"
-model: "SPW-1260SC"
+title: "SPW-840SC 8 Inch Woofer"
+model: "SPW-840SC"
 images:
   - p1.png
   - p2.png
@@ -16,14 +16,14 @@ notes:
   - OPTIMIZED COOLING SYSTEM
   - RESONANCE FREE AND HEAVY DUTY BASKET DESIGN
 # General specifications
-nominal_diameter: "12 inch"
+nominal_diameter: "8 inch"
 nominal_impedance: "8 Ω"
-magnet_weight: "60 oz"
-voice_coil_diameter: "2 inch"
-power_rating: "100W RMS"
-peak_power: "150W"
-sensitivity: "95+2 dB"
-frequency_range: "360~5000 Hz"
+magnet_weight: "40 oz"
+voice_coil_diameter: "1 inch"
+power_rating: "120W RMS"
+peak_power: "200W"
+sensitivity: "89+2 dB"
+frequency_range: "58~4200 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
@@ -33,17 +33,17 @@ magnet_material: "Ferrite"
 basket_material: "Steel"
 
 # T/S parameters
-fs: "371.7 Hz"
-re: "7.1 Ω"
-mms: "0.6 g"
-cms: "0.29 mm/N"
-bl: "1.9 N/A"
-qms: "2.76"
-qes: "2.93"
-qts: "1.42"
-vas: "8.2 L"
-le: "0.27 mH"
-sd: "141.0 cm²"
+fs: "83.0 Hz"
+re: "7.2 Ω"
+mms: "17.8 g"
+cms: "0.21 mm/N"
+bl: "6.8 N/A"
+qms: "7.67"
+qes: "1.45"
+qts: "1.22"
+vas: "13.6 L"
+le: "0.54 mH"
+sd: "216.4 cm²"
 
 # eta_0: "1.2 %"
 
