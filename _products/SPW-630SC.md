@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-630SC 6.5 Inch Tweeter"
+title: "SPW-630SC 6.5 Inch Woofer"
 model: "SPW-630SC"
 images:
   - p1.png
@@ -22,7 +22,7 @@ magnet_weight: "30 oz"
 voice_coil_diameter: "1 inch"
 power_rating: "100W RMS"
 peak_power: "150W"
-sensitivity: "88+2 dB"
+sensitivity: "88.4 dB"
 frequency_range: "90~5000 Hz"
 
 coil_material: "Round Copper"
@@ -44,7 +44,7 @@ qts: "1.20"
 vas: "3.9 L"
 
 le: "0.30 mH"
-sd: ""
+sd: "141.0 cm²"
 # eta_0: "1.2 %"
 
 #shipping and mounting

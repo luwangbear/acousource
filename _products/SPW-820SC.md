@@ -22,7 +22,7 @@ magnet_weight: "20 oz"
 voice_coil_diameter: "1 inch"
 power_rating: "100W RMS"
 peak_power: "150W"
-sensitivity: "90+2 dB"
+sensitivity: "90.0 dB"
 frequency_range: "60~10000 Hz"
 
 coil_material: "Round Copper"

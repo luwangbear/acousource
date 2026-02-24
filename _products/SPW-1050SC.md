@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1050SC 15 Inch Woofer"
+title: "SPW-1050SC 10 Inch Woofer"
 model: "SPW-1050SC"
 images:
   - p1.png
@@ -22,7 +22,7 @@ magnet_weight: "50 oz"
 voice_coil_diameter: "1.5 inch"
 power_rating: "200W RMS"
 peak_power: "250W"
-sensitivity: "91+2 dB"
+sensitivity: "90.8 dB"
 frequency_range: "55~3200 Hz"
 
 coil_material: "Round Copper"
