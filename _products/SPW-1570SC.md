@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1570SC 12 Inch Woofer"
+title: "SPW-1570SC 15 Inch Woofer"
 model: "SPW-1570SC"
 images:
   - p1.png
@@ -22,7 +22,7 @@ magnet_weight: "70 oz"
 voice_coil_diameter: "2 inch"
 power_rating: "300W RMS"
 peak_power: "500W"
-sensitivity: "93+2 dB 啥意思？"
+sensitivity: "93.5 dB"
 frequency_range: "40~3000 Hz"
 
 coil_material: "Round Copper"

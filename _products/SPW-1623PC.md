@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1623PC XXXX Woofer"
+title: "SPW-1623PC 6x9 inch Car Speaker"
 model: "SPW-1623PC"
 images:
   - p1.png
@@ -22,11 +22,11 @@ magnet_weight: "6.5 oz"
 voice_coil_diameter: "1 inch"
 power_rating: "80W RMS"
 peak_power: "100W"
-sensitivity: "94+2 dB"
+sensitivity: "94.7 dB"
 frequency_range: "100~11000 Hz"
 
 coil_material: "Round Copper"
-former_material: "Polymide"
+former_material: "Kapton"
 cone_material: "Paper"
 surround_material: "Cloth"
 magnet_material: "Ferrite"

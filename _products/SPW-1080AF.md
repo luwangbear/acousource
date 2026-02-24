@@ -2,8 +2,8 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPM-411SF 4 Inch Midrange"
-model: "SPM-411SF"
+title: "SPW-1080AF 10 Inch Subwoofer"
+model: "SPW-1080AF"
 images:
   - p1.png
   - p2.png
@@ -16,35 +16,35 @@ notes:
   - OPTIMIZED COOLING SYSTEM
   - RESONANCE FREE AND HEAVY DUTY BASKET DESIGN
 # General specifications
-nominal_diameter: "4 inch"
+nominal_diameter: "10 inch"
 nominal_impedance: "8 Ω"
-magnet_weight: "11 oz"
-voice_coil_diameter: "0.76 inch"
-power_rating: "50W RMS"
-peak_power: "70W"
-sensitivity: "90 dB"
-frequency_range: "500~11000 Hz"
+magnet_weight: "80 oz"
+voice_coil_diameter: "2 inch"
+power_rating: "500W RMS"
+peak_power: "800W"
+sensitivity: "92+2 dB"
+frequency_range: "30~1700 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
 cone_material: "Paper"
 surround_material: "Foam"
 magnet_material: "Ferrite"
-basket_material: "Steel"
+basket_material: "Die Cast Aluminum"
 
 # T/S parameters
-fs: "500 Hz"
-re: "7.3"
-mms: ""
-cms: ""
-bl: ""
-qms: ""
-qes: ""
-qts: ""
-vas: ""
+fs: "34.0 Hz"
+re: "7.0 Ω"
+mms: "79.4 g"
+cms: "0.28 mm/N"
+bl: "14.5 N/A"
+qms: "2.74"
+qes: "0.56"
+qts: "0.47"
+vas: "46.3 L"
+le: "1.99 mH"
+sd: "346.4 cm²"
 
-le: ""
-sd: ""
 # eta_0: "1.2 %"
 
 #shipping and mounting

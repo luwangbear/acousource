@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPM-43SP 5 Inch Midrange"
+title: "SPM-43SP 4 Inch Midrange"
 model: "SPM-43SP"
 images:
   - p1.png
@@ -16,34 +16,34 @@ notes:
   - OPTIMIZED COOLING SYSTEM
   - RESONANCE FREE AND HEAVY DUTY BASKET DESIGN
 # General specifications
-nominal_diameter: "5 inch"
+nominal_diameter: "4 inch"
 nominal_impedance: "8 Ω"
-magnet_weight: "10 oz"
-voice_coil_diameter: "0.75 inch"
-power_rating: "80W RMS"
-peak_power: "120W"
-sensitivity: "91+2 dB"
+magnet_weight: "3 oz"
+voice_coil_diameter: "0.76 inch"
+power_rating: "30W RMS"
+peak_power: "40W"
+sensitivity: "91 dB"
 frequency_range: "750~11000 Hz"
 
 coil_material: "Round Copper"
-former_material: "Aluminum"
+former_material: "Kapton"
 cone_material: "Paper"
-surround_material: "Foam"
+surround_material: "Paper"
 magnet_material: "Ferrite"
 basket_material: "Steel"
 
 # T/S parameters
-fs: "840.8 Hz"
-re: "7.2 Ω"
+fs: "750 Hz"
+re: "7.2"
 mms: ""
 cms: ""
 bl: ""
-qms: "3.41"
-qes: "17.39"
-qts: "2.85"
+qms: ""
+qes: ""
+qts: ""
 vas: ""
 
-le: "0.13 mH"
+le: ""
 sd: ""
 # eta_0: "1.2 %"
 

@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1250SP 12 Inch Woofer"
+title: "SPW-1250SP 12 Inch Guitar Woofer"
 model: "SPW-1250SP"
 images:
   - p1.png
@@ -22,13 +22,13 @@ magnet_weight: "50 oz"
 voice_coil_diameter: "1.76 inch"
 power_rating: "150W RMS"
 peak_power: "250W"
-sensitivity: "93+2 dB"
+sensitivity: "93.0 dB"
 frequency_range: "70~6000 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
 cone_material: "Paper"
-surround_material: "paper"
+surround_material: "Paper"
 magnet_material: "Ferrite"
 basket_material: "Steel"
 

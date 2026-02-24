@@ -16,34 +16,34 @@ notes:
   - OPTIMIZED COOLING SYSTEM
   - RESONANCE FREE AND HEAVY DUTY BASKET DESIGN
 # General specifications
-nominal_diameter: "4 inch"
+nominal_diameter: "3 inch"
 nominal_impedance: "8 Ω"
 magnet_weight: "3 oz"
 voice_coil_diameter: "0.5 inch"
-power_rating: "30W RMS"
-peak_power: "40W"
-sensitivity: "89+2 dB"
-frequency_range: "3000~16000 Hz"
+power_rating: "20W RMS"
+peak_power: "30W"
+sensitivity: "93 dB"
+frequency_range: "2000~15000 Hz"
 
 coil_material: "Round Copper"
-former_material: "Polymide"
+former_material: "Kapton"
 cone_material: "Paper"
 surround_material: "Paper"
 magnet_material: "Ferrite"
 basket_material: "Steel"
 
 # T/S parameters
-fs: "1469.4 Hz"
+fs: "2000 Hz"
 re: "6.6 Ω"
 mms: ""
 cms: ""
 bl: ""
-qms: "3.50"
-qes: "5.11"
-qts: "2.08"
+qms: ""
+qes: ""
+qts: ""
 vas: ""
 
-le: "0.09 mH"
+le: ""
 # sd: ""
 # eta_0: "1.2 %"
 
