@@ -4,6 +4,8 @@ breadcrumb: true
 header: no
 title: "SPW-415SF 4 Inch Woofer"
 model: "SPW-415SF"
+sequence: 20
+type: "woofer"
 images:
   - p1.png
   - p2.png

@@ -4,6 +4,8 @@ breadcrumb: true
 header: no
 title: "SPM-630SC 6.5 Inch Midrange"
 model: "SPM-630SC"
+sequence: 4
+type: "midrange"
 images:
   - p1.png
   - p2.png

@@ -4,6 +4,8 @@ breadcrumb: true
 header: no
 title: "SPW-630SC 6.5 Inch Woofer"
 model: "SPW-630SC"
+sequence: 5
+type: "woofer"
 images:
   - p1.png
   - p2.png

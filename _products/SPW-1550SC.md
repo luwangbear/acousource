@@ -4,6 +4,8 @@ breadcrumb: true
 header: no
 title: "SPW-1550SC 15 Inch Woofer"
 model: "SPW-1550SC"
+sequence: 4
+type: "woofer"
 images:
   - p1.png
   - p2.png

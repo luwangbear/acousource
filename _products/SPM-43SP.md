@@ -4,6 +4,8 @@ breadcrumb: true
 header: no
 title: "SPM-43SP 4 Inch Midrange"
 model: "SPM-43SP"
+sequence: 2
+type: "midrange"
 images:
   - p1.png
   - p2.png

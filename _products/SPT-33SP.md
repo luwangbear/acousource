@@ -4,6 +4,8 @@ breadcrumb: true
 header: no
 title: "SPT-33SP 4 Inch Tweeter"
 model: "SPT-33SP"
+sequence: 1
+type: "tweeter"
 images:
   - p1.png
   - p2.png

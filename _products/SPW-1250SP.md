@@ -4,6 +4,8 @@ breadcrumb: true
 header: no
 title: "SPW-1250SP 12 Inch Guitar Woofer"
 model: "SPW-1250SP"
+sequence: 17
+type: "woofer"
 images:
   - p1.png
   - p2.png

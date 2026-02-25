@@ -25,8 +25,19 @@
 *
 {% endcomment %}
 <div>
+    {% assign types = "tweeter,midrange,woofer" | split: "," %}
+{% for type in types %}
+
+    <div class="row tab">
+        <div class="alert-box info">
+            {{ type }}
+        </div>
+    </div>
+    {% assign items = site.products
+        | where: "type", type
+        | sort: "sequence" %}
 	<ul class="medium-block-grid-3">
-		{% for item in site.products %}
+		{% for item in items %}
 		<li>
 		<div class="th">
         <a href="{{ site.baseurl }}{{ item.url }}">
@@ -37,4 +48,5 @@
 		</li>
 		{% endfor %}
 	</ul>
+{% endfor %}
 </div>

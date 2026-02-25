@@ -4,6 +4,8 @@ breadcrumb: true
 header: no
 title: "SPW-810SP 8 Inch Woofer"
 model: "SPW-810SP"
+sequence: 22
+type: "woofer"
 images:
   - p1.png
   - p2.png

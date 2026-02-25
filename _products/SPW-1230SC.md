@@ -4,6 +4,8 @@ breadcrumb: true
 header: no
 title: "SPW-1230SC 12 Inch Woofer"
 model: "SPW-1230SC"
+sequence: 3
+type: "woofer"
 images:
   - p1.png
   - p2.png
