@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-415SF 8 Inch Woofer"
+title: "SPW-415SF 4 Inch Woofer"
 model: "SPW-415SF"
 images:
   - p1.png
@@ -22,7 +22,7 @@ magnet_weight: "15 oz"
 voice_coil_diameter: "1 inch"
 power_rating: "50W RMS"
 peak_power: "80W"
-sensitivity: "86+2 dB"
+sensitivity: "85.5 dB"
 frequency_range: "90~10000 Hz"
 
 coil_material: "Round Copper"
