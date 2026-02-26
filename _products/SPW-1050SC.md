@@ -5,7 +5,7 @@ header: no
 title: "SPW-1050SC 10 Inch Woofer"
 model: "SPW-1050SC"
 sequence: 7
-type: "woofer"
+type: "Woofer"
 images:
   - p1.png
   - p2.png

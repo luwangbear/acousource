@@ -5,7 +5,7 @@ header: no
 title: "SPM-411SF 4 Inch Midrange"
 model: "SPM-411SF"
 sequence: 3
-type: "midrange"
+type: "Midrange"
 images:
   - p1.png
   - p2.png

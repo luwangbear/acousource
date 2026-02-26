@@ -5,7 +5,7 @@ header: no
 title: "SPW-1570SC 15 Inch Woofer"
 model: "SPW-1570SC"
 sequence: 9
-type: "woofer"
+type: "Woofer"
 images:
   - p1.png
   - p2.png

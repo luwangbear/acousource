@@ -5,7 +5,7 @@ header: no
 title: "SPM-830SC 8 Inch Midrange"
 model: "SPM-830SC"
 sequence: 5
-type: "midrange"
+type: "Midrange"
 images:
   - p1.png
   - p2.png

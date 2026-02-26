@@ -5,7 +5,7 @@ header: no
 title: "SPW-1250SP 12 Inch Guitar Woofer"
 model: "SPW-1250SP"
 sequence: 17
-type: "woofer"
+type: "Woofer"
 images:
   - p1.png
   - p2.png

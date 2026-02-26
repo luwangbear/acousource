@@ -5,7 +5,7 @@ header: no
 title: "SPW-1080AF 10 Inch Subwoofer"
 model: "SPW-1080AF"
 sequence: 14
-type: "woofer"
+type: "Woofer"
 images:
   - p1.png
   - p2.png

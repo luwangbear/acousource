@@ -5,7 +5,7 @@ header: no
 title: "SPW-32SF 3 Inch Woofer"
 model: "SPW-32SF"
 sequence: 19
-type: "woofer"
+type: "Woofer"
 images:
   - p1.png
   - p2.png

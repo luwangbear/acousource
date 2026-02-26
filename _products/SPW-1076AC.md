@@ -5,7 +5,7 @@ header: no
 title: "SPW-1076AC 10 Inch Woofer"
 model: "SPW-1076AC"
 sequence: 10
-type: "woofer"
+type: "Woofer"
 images:
   - p1.png
   - p2.png

@@ -5,7 +5,7 @@ header: no
 title: "SPW-810SP 8 Inch Woofer"
 model: "SPW-810SP"
 sequence: 22
-type: "woofer"
+type: "Woofer"
 images:
   - p1.png
   - p2.png
