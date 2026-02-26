@@ -10,6 +10,7 @@ images:
   - p1.png
   - p2.png
   - p3.png
+  - p4.png
 notes:
   - 2 INCH COPPER VOICE COIL
   - 93.8 dB/SPL SENSITIVITY
