@@ -41,7 +41,7 @@
 		<li>
 		<div class="th">
         <a href="{{ site.baseurl }}{{ item.url }}">
-		    <img src="{{ site.urlimg }}{{ item.model }}/p1.png" alt="{{ item.title }}">
+		    <img src="{{ site.urlimg }}{{ item.model }}/thumb.jpg" alt="{{ item.title }}">
 		    <h6 style = "text-align: center"> {{ item.title }}</h6>
         </a>
 		</div>
