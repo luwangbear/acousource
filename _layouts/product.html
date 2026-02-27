@@ -46,6 +46,7 @@ format: product
                     {% for note in page.notes %}
                     <br> <strong> - {{ note }} </strong><br>
                     {% endfor %}
+                </div>
             </div>
         </div>
         <hr>
@@ -64,10 +65,6 @@ format: product
                             <th>Nominal impedance</th>
                             <td>{{ page.nominal_impedance }}</td>
                         </tr>
-<!--                        <tr>-->
-<!--                            <th>Minimum impedance</th>-->
-<!--                            <td>{{ page.minimum_impedance }}</td>-->
-<!--                        </tr>-->
                         <tr>
                             <th>Magnet weight</th>
                             <td>{{ page.magnet_weight }}</td>
@@ -100,10 +97,6 @@ format: product
                             <th>Magnet material</th>
                             <td>{{ page.magnet_material }}</td>
                         </tr>
-<!--                        <tr>-->
-<!--                            <th>Magnet dimensions (ODxIDxh)</th>-->
-<!--                            <td>{{ page.magnet_dimension }}</td>-->
-<!--                        </tr>-->
                         <tr>
                             <th>Coil material</th>
                             <td>{{ page.coil_material }}</td>
@@ -120,30 +113,6 @@ format: product
                             <th>Surround material</th>
                             <td>{{ page.surround_material }}</td>
                         </tr>
-
-<!--                        <tr>-->
-<!--                            <th>Xmax(4)</th>-->
-<!--                            <td>{{ page.xmax }}</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <th>Xmech(5)</th>-->
-<!--                            <td>{{ page.xmech }}</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <th>Gap height</th>-->
-<!--                            <td>{{ page.gap_height }}</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <th>Voice coil Winding height</th>-->
-<!--                            <td>{{ page.voice_coil_winding_height }}</td>-->
-<!--                        </tr>-->
-<!--                        {% if page.bucket_material %}-->
-<!--                        <tr>-->
-<!--                            <th>Bucket material</th>-->
-<!--                            <td>{{ page.bucket_material }}</td>-->
-<!--                        </tr>-->
-<!--                        {% endif %}-->
-                        <!-- 不同类型产品分类 -->
                         </tbody>
                     </table>
                 </div>
@@ -198,51 +167,10 @@ format: product
                             <th>Diaphragm area(Sd)</th>
                             <td>{{ page.sd }}</td>
                         </tr>
-<!--                        <tr>-->
-<!--                            <th>Reference efficiency(Eta O)</th>-->
-<!--                            <td>{{ page.eta_0 }}</td>-->
-<!--                        </tr>-->
                         </tbody>
                     </table>
                 </div>
             </div>
-<!--            <div class="medium-6 columns mod-detail">-->
-<!--                <h4>SHIPPING INFORMATION</h4>-->
-<!--                <div class="mod-detail__cont">-->
-<!--                    <table>-->
-<!--                        <tbody>-->
-<!--                        <tr>-->
-<!--                            <th>Overall Diameter</th>-->
-<!--                            <td>{{ page.overall_diameter }}</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <th>Depth</th>-->
-<!--                            <td>{{ page.depth }}</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <th>Bolt Circle Diameter</th>-->
-<!--                            <td>{{ page.bolt_circle_diameter }}</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <th>Mount Baffle  Cut-out</th>-->
-<!--                            <td>{{ page.mount_baffle_cut_out }}</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <th>Shipping Size (1  pc)</th>-->
-<!--                            <td>{{ page.shipping_size }}</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <th>Net weight</th>-->
-<!--                            <td>{{ page.net_weight }}</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <th>Gross weight</th>-->
-<!--                            <td>{{ page.gross_weight }}</td>-->
-<!--                        </tr>-->
-<!--                        </tbody>-->
-<!--                    </table>-->
-<!--                </div>-->
-<!--            </div>-->
         </div>
         <!-- /row -->
         <div class="row tab">
@@ -276,21 +204,6 @@ format: product
                     <img src="{{ site.urlimg }}{{ page.model }}/dimensions.png" class="img-fluid" alt="">
                 </li>
             </ul>
-        </div>
-<!--        <div class="row tab">-->
-<!--            <div class="col-md-12 mod-detail">-->
-<!--                <div class="alert-box info">-->
-<!--                    NOTE-->
-<!--                </div>-->
-<!--                <div class="mod-detail__cont" id="others-content">(1) Program power is defined as 3 dB greater than AES Power.&nbsp;-->
-<!--                    <div>(2) Tested for two hours using a continuous, band-limited pink noise signal as per AES 2-1984 Rev. 2003. Loudspeaker tested in free air.</div>-->
-<!--                    <div>(3) From T/S parameters, measured with LMS DA LPM module.&nbsp;</div>-->
-<!--                    <div>(4) The Xmax is calculated as: (Hvc - Hg)/2+ Hg/4. Hvc is the voice coil height and Hg the gap height.&nbsp;</div>-->
-<!--                    <div>(5) The Xmech is calculated as: (Hvc - Hg)/2 +(Hg-2). Hvc is the voice coil height and Hg the gap height.</div>-->
-<!--                    <div>(6) Thiele-Small parameters are measured after preconditioning: a) at 20°C- 22°C, 50% humidity for 2 hours; b) by LMS LSI measurement.</div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
         </div>
     </div>
 
