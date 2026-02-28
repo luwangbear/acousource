@@ -16,6 +16,7 @@ format: product
                     <input type="radio"
                            name="carousel"
                            id="img{{ forloop.index }}"
+                           {% if forloop.first == false %}loading="lazy"{% endif %}
                            {% if forloop.first %}checked{% endif %}>
                     {% endfor %}
 
