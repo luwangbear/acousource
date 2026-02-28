@@ -14,7 +14,8 @@ permalink: /index.html
 homepage: true
 ---
 <p></p> <!--FIXME-->
-* Located in Jiashan County, Zhejiang Province, China.
-* Designing and manufacturing speaker products since 2000.
-* Specialized in woofer, subwoofer, midrange driver and tweeter manufacturing.
-* Spec-based and sample-based OEM services for global clients.
+* Located in Jiashan, Zhejiang, China. 
+* Designing and manufacturing reliable audio components since 2000. 
+* Specializing in high-quality, cost-effective woofers, subwoofers, midrange drivers, and tweeters.
+* OEM manufacturing based on customer specifications or samples. 
+* Serving global clients with flexible production and comprehensive support.
