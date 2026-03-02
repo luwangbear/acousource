@@ -12,20 +12,18 @@ images:
   - p3.png
   - p4.png
 notes:
-  - 2 INCH COPPER VOICE COIL
-  - 93.8 dB/SPL SENSITIVITY
-  - 400 WATT PROGRAM POWER HANDING
-  - FEM OPTIMIZED MOTOR AND SUSPENSIONS
-  - OPTIMIZED COOLING SYSTEM
-  - RESONANCE FREE AND HEAVY DUTY BASKET DESIGN
+  - 2 INCH ROUND COPPER VOICE COIL
+  - 87 dB/SPL SENSITIVITY
+  - 450 WATT RMS
+  - 30 - 1700 Hz FREQUENCY RESPONSE
   - 铝散热器
 # General specifications
 nominal_diameter: "10 inch"
 nominal_impedance: "8 Ω"
 magnet_weight: "2 x 40 oz"
 voice_coil_diameter: "2 inch"
-power_rating: "500W RMS"
-peak_power: "800W"
+power_rating: "450W RMS"
+peak_power: "900W"
 sensitivity: "87.0 dB"
 frequency_range: "30~1700 Hz"
 
