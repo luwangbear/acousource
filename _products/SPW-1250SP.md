@@ -21,7 +21,7 @@ nominal_impedance: "16 Ω"
 magnet_weight: "50 oz"
 voice_coil_diameter: "1.76 inch"
 power_rating: "150W RMS"
-peak_power: "250W"
+peak_power: "300W"
 sensitivity: "93.0 dB"
 frequency_range: "70~6000 Hz"
 
