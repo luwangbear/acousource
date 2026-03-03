@@ -15,6 +15,7 @@ notes:
   - 90.8 dB/SPL SENSITIVITY
   - 250 WATT RMS
   - 55 - 3200 Hz FREQUENCY RESPONSE
+  - 松压盆
 # General specifications
 nominal_diameter: "10 inch"
 nominal_impedance: "8 Ω"

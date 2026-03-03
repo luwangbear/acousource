@@ -16,7 +16,7 @@ notes:
   - 87 dB/SPL SENSITIVITY
   - 450 WATT RMS
   - 30 - 1700 Hz FREQUENCY RESPONSE
-  - 铝散热器
+  - OPTIONAL ALUMINUM BACK PLATE HEAT SINK
 # General specifications
 nominal_diameter: "10 inch"
 nominal_impedance: "8 Ω"
