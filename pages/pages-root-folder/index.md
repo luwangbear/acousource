@@ -8,12 +8,11 @@ tags:
   - design
   - background color
   - header
-header:
-  image_fullwidth: homepage.png
+header: no
+banner: homepage.png
 permalink: /index.html
 homepage: true
 ---
-<p></p> <!--FIXME-->
 * Located in Jiashan, Zhejiang, China. 
 * Designing and manufacturing reliable audio components since 2000. 
 * Specializing in high-quality, cost-effective woofers, subwoofers, midrange drivers, and tweeters.

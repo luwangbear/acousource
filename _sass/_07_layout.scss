@@ -97,6 +97,12 @@ body.video cite { color: #fff; }
     margin-top: 60px;
 }
 
+.full-width-image {
+    width: 100vw;       /* Forces the image to be 100% of the Viewport Width */
+    height: auto;       /* Automatically calculates the height to keep proportions */
+    display: block;     /* Removes the tiny gap browsers sometimes put under images */
+}
+
 /* Masthead › small-only
 ------------------------------------------------------------------- */
 
