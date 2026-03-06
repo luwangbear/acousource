@@ -1,15 +1,15 @@
 - name: LinkedIn
-  url: http://www.linkedin.com/
+  url: https://www.linkedin.com/company/acousource-audio
   class: icon-linkedin
   title: ""
 
 - name: Facebook
-  url: http://www.facebook.com/
+  url: https://www.facebook.com/share/1KrmmLbKWA
   class: icon-facebook
   title: ""
 
 - name: Instagram
-  url: http://instagram.com/
+  url: https://www.instagram.com/acousource_audio
   class: icon-instagram
   title: ""
 

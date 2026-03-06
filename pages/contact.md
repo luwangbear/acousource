@@ -8,12 +8,12 @@ permalink           : "/contact/"
 ---
 
 Send us Email
-: unknown@acousource.com  
+: info@acousource.com  
 Emails will be replied within 24 hours during weekdays.  
 
 Feel free to send a message via Whatsapp and WeChat
-: Whatsapp: +31 xxxxxxxxx  
-WeChat: +3152353263262  
+: Whatsapp: +31-684938130  
+WeChat: 13385732056
 
 You may also contact us via telephone  
-: +86 xxxxxxxxx
+: +86 13385732056

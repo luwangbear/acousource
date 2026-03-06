@@ -2,21 +2,21 @@
 
 - name: Address
   class: fa-solid fa-location-dot
-  title: "No.2 Hujia Road, Jiashan County, Zhejiang Province, China"
+  title: "Hujia Road 2, Jiashan, Zhejiang Province, China"
 
 - name: Email
   class: fa-solid fa-envelope
-  title: "xxxxx@xxxxxx"
+  title: "info@acousource.com"
 
 - name: Whatsapp
   class: fa-brands fa-whatsapp
-  title: "+31 xxxxxxxx"
+  title: "+31 684938130"
 
 - name: Phone
   class: fa fa-phone
-  title: "+86 xxxxxxxx"
+  title: "+86-13385732056"
 
 - name: WeChat
   class: fa-brands fa-weixin
-  title: "abcdefg"
+  title: "13385732056"
 
