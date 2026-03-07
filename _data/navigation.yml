@@ -14,9 +14,9 @@
   url: "/oem-service/"
   side: right
 
-- title: "News"
-  url: "/news/"
-  side: right
+#- title: "News"
+#  url: "/news/"
+#  side: right
 
 - title: "Contact Us"
   url: "/contact/"
