@@ -11,10 +11,10 @@
 - name: "OEM Service"
   url: "/oem-service"
   title: "OEM Service"
-
-- name: "News"
-  url: "/news"
-  title: "News"
+#
+#- name: "News"
+#  url: "/news"
+#  title: "News"
 
 - name: "Contact Us"
   url: "/contact"
