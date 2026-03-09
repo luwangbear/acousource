@@ -5,7 +5,7 @@ header: no
 title: "SPM-43SP 4 Inch Midrange"
 model: "SPM-43SP"
 sequence: 2
-type: "Midrange"
+type: "Tweeter & Midrange"
 images:
   - p1.png
   - p2.png

@@ -25,7 +25,7 @@
 *
 {% endcomment %}
 <div>
-    {% assign types = "Tweeter,Midrange,Woofer,Ceiling" | split: "," %}
+    {% assign types = "Tweeter & Midrange,Woofer,Ceiling" | split: "," %}
 {% for type in types %}
 
     <div class="row tab">

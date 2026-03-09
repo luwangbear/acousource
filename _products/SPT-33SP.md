@@ -5,7 +5,7 @@ header: no
 title: "SPT-33SP 3 Inch Tweeter"
 model: "SPT-33SP"
 sequence: 1
-type: "Tweeter"
+type: "Tweeter & Midrange"
 images:
   - p1.png
   - p2.png
