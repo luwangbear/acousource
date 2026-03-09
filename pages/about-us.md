@@ -23,7 +23,7 @@ Team
 : We have experienced engineers and production workers with more than 20 years of industry experience. Our team supports customers from product evaluation and sample development to mass production, ensuring stable quality and consistent performance. We also provide fluent English customer service.
 
 Markets
-: With over two decades of continuous operation, we have built long-term partnerships with customers across multiple international markets. Our products are exported worldwide, with primary markets in Europe, North America, Latin America, and Africa. Over the years, we have gained experience working with international customers, including brand owners, distributors, and private-label companies.
+: With over two decades of continuous operation, we have built long-term partnerships with customers across multiple international markets. Our products are exported worldwide, with primary markets in North America, Latin America, and Africa. Over the years, we have gained experience working with international customers, including brand owners, distributors, and private-label companies.
 
 Promise
 : We are committed to building long-term, reliable partnerships by providing practical manufacturing solutions, stable product quality, and dependable service.

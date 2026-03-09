@@ -1,7 +1,7 @@
 ---
 layout: frontpage
 title: "AcouSource Audio"
-teaser: "AcouSource Audio is a speaker driver manufacturer from China. AcouSource has been designing and manufacturing loudspeaker components since 2000, specializing in woofer, midrange drivers, and tweeters. We provide OEM services to global clients. "
+teaser: "Based in Jiashan, China, AcouSource Audio has been designing and manufacturing reliable, cost-effective speaker drivers since 2000. Specializing in woofers, subwoofers, midrange drivers, and tweeters, we offer flexible OEM manufacturing services based on customer specifications or samples. We are committed to delivering reliable production and comprehensive support to our global clients."
 categories:
   - design
 tags:
@@ -9,12 +9,9 @@ tags:
   - background color
   - header
 header: no
-banner: homepage.png
+banner: homepage.jpg
 permalink: /index.html
 homepage: true
 ---
-* Located in Jiashan, Zhejiang, China. 
-* Designing and manufacturing reliable audio components since 2000. 
-* Specializing in high-quality, cost-effective woofers, subwoofers, midrange drivers, and tweeters.
-* OEM manufacturing based on customer specifications or samples. 
-* Serving global clients with flexible production and comprehensive support.
+<p></p>
+Based in Jiashan, China, AcouSource Audio has been designing and manufacturing reliable, cost-effective speaker drivers since 2000. Specializing in woofers, subwoofers, midrange drivers, and tweeters, we offer flexible OEM manufacturing services based on customer specifications or samples. We are committed to delivering reliable production and comprehensive support to our global clients.
