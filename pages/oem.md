@@ -1,35 +1,38 @@
 ---
 layout: page
-title: "OEM service"
+title: "OEM service workflow"
 permalink: "/oem-service/"
 ---
 
 1. Customer Inquiry
-: Receive samples reference images, specifications or drawings from the customer.
+: We receive physical samples, reference images, specifications or drawings from you.
 
 1. Feasibility Evaluation
-: Analyze product design, materials, and technical requirements to evaluate production feasibility.
+: Our engineering team analyzes the product design, materials, and technical requirements to evaluate production feasibility.
 
-1. Cost Evaluation
-: Consult with our long-term suppliers and provide cost and lead-time estimates.
+1. Cost & Lead-time Evaluation
+: We consult with our long-term suppliers to provide production cost and lead-time estimates.
 
 1. Sample Development
-: Order materials and develop samples based on customer requirements. We conduct both manual inspection and electro-acoustic performance testing using professional measurement systems such as DAAS.
+: We source materials to develop samples. We conduct both manual inspection and electro-acoustic performance testing using professional measurement systems such as DAAS.
 
-1. Sample Approval
-: Send samples to the customer for evaluation and approval, or make adjustments based on customer feedback.
+1. Sample Refinement & Approval
+: We send samples for your evaluation and make any necessary adjustments based on your feedback.
 
-1. Component Purchasing
-: Order materials from suppliers.
+1. Procurement
+: Upon approval, we initiate material procurement from our suppliers for mass production.
 
-1. Mass Production
-: Conduct incoming material inspection, mass production and testing.
+1. Mass Production & Quality Control
+: We conduct incoming material inspection, mass production and testing. We run a 100% sweep test for all products to ensure quality and consistency.
+
+1. Packaging
+: We provide custom color box or carton packaging according to your requirements.
 
 1. Shipping
-: Complete packaging and arrange shipment through freight forwarding partners.
+: We arrange shipment through freight forwarding partners, or deliver to your designated logistics providers. 
 
 1. After-Sales Support
-: Provide support if any issue arises.
+: We remain committed to your assistance post-delivery, providing dedicated support to address any inquiries or requirements.
 
 
 
