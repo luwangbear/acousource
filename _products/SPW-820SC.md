@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-820SC 8 Inch Woofer"
+title: "SPW-820SC 8&quot; Woofer"
 model: "SPW-820SC"
 sequence: 1
 type: "Woofer"

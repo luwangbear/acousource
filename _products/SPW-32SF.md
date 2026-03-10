@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-32SF 3 Inch Woofer"
+title: "SPW-32SF 3&quot; Full-Range Speaker"
 model: "SPW-32SF"
 sequence: 19
-type: "Woofer"
+type: "Midrange / Full-range"
 images:
   - p1.png
   - p2.png

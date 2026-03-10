@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPT-33SP 3 Inch Tweeter"
+title: "SPT-33SP 3&quot; Tweeter"
 model: "SPT-33SP"
 sequence: 1
-type: "Tweeter & Midrange"
+type: "Tweeter"
 images:
   - p1.png
   - p2.png

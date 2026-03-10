@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1080AF 10 Inch Subwoofer"
+title: "SPW-1080AF 10&quot; Subwoofer"
 model: "SPW-1080AF"
 sequence: 14
-type: "Woofer"
+type: "Subwoofer"
 images:
   - p1.png
   - p2.png

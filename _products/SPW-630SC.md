@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-630SC 6.5 Inch Woofer"
+title: "SPW-630SC 6.5&quot; Woofer"
 model: "SPW-630SC"
 sequence: 5
 type: "Woofer"
@@ -15,7 +15,6 @@ notes:
   - 88.4 dB/SPL SENSITIVITY
   - 120 WATT RMS
   - 90 - 5000 Hz FREQUENCY RESPONSE
-  - 松压盆
 # General specifications
 nominal_diameter: "6.5 inch"
 nominal_impedance: "8 Ω"
@@ -28,7 +27,7 @@ frequency_range: "90~5000 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
-cone_material: "Paper"
+cone_material: "Non-pressed paper"
 surround_material: "Cloth"
 magnet_material: "Ferrite"
 basket_material: "Steel"

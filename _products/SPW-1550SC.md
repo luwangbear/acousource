@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1550SC 15 Inch Woofer"
+title: "SPW-1550SC 15&quot; Woofer"
 model: "SPW-1550SC"
 sequence: 4
 type: "Woofer"

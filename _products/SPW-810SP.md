@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-810SP 8 Inch Woofer"
+title: "SPW-810SP 8&quot; Ceiling Speaker"
 model: "SPW-810SP"
 sequence: 22
-type: "Woofer"
+type: "Ceiling Speaker"
 images:
   - p1.png
   - p2.png
@@ -15,6 +15,8 @@ notes:
   - 89 dB/SPL SENSITIVITY
   - 60 WATT RMS
   - 100 - 4000 Hz FREQUENCY RESPONSE
+  - Equipped with mounting points for a matching transformer
+  - Whizzer cone for extended high-frequency response
 # General specifications
 nominal_diameter: "8 inch"
 nominal_impedance: "8 Ω"

@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1260SC 12 Inch woofer"
+title: "SPW-1260SC 12&quot; woofer"
 model: "SPW-1260SC"
 sequence: 8
 type: "Woofer"
@@ -15,7 +15,6 @@ notes:
   - 92.8 dB/SPL SENSITIVITY
   - 350 WATT RMS
   - 60 - 3000 Hz FREQUENCY RESPONSE
-  - 松压盆
 # General specifications
 nominal_diameter: "12 inch"
 nominal_impedance: "8 Ω"
@@ -28,7 +27,7 @@ frequency_range: "60~3000 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
-cone_material: "Paper"
+cone_material: "Non-pressed paper"
 surround_material: "Cloth"
 magnet_material: "Ferrite"
 basket_material: "Steel"

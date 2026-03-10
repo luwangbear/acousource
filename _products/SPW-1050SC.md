@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1050SC 10 Inch Woofer"
+title: "SPW-1050SC 10&quot; Woofer"
 model: "SPW-1050SC"
 sequence: 7
 type: "Woofer"
@@ -15,7 +15,6 @@ notes:
   - 90.8 dB/SPL SENSITIVITY
   - 250 WATT RMS
   - 55 - 3200 Hz FREQUENCY RESPONSE
-  - 松压盆
 # General specifications
 nominal_diameter: "10 inch"
 nominal_impedance: "8 Ω"
@@ -28,7 +27,7 @@ frequency_range: "55~3200 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
-cone_material: "Paper"
+cone_material: "Non-pressed paper"
 surround_material: "Cloth"
 magnet_material: "Ferrite"
 basket_material: "Steel"

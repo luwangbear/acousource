@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1623PC 6x9 inch Car Speaker"
+title: "SPW-1623PC 6x9&quot; Car Speaker"
 model: "SPW-1623PC"
 sequence: 21
-type: "Woofer"
+type: "Car Speaker"
 images:
   - p1.png
   - p2.png

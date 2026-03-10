@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1230SC 12 Inch Woofer"
+title: "SPW-1230SC 12&quot; Woofer"
 model: "SPW-1230SC"
 sequence: 3
 type: "Woofer"

@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPM-830SC 8 Inch Midrange"
+title: "SPM-830SC 8&quot; Midrange Speaker"
 model: "SPM-830SC"
 sequence: 5
-type: "Tweeter & Midrange"
+type: "Midrange / Full-range"
 images:
   - p1.png
   - p2.png

@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1025SC 10 Inch Woofer"
+title: "SPW-1025SC 10&quot; Woofer"
 model: "SPW-1025SC"
 sequence: 2
 type: "Woofer"

@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1570SC 15 Inch Woofer"
+title: "SPW-1570SC 15&quot; Woofer"
 model: "SPW-1570SC"
 sequence: 9
 type: "Woofer"
@@ -15,7 +15,6 @@ notes:
   - 93.5 dB/SPL SENSITIVITY
   - 350 WATT RMS
   - 40 - 3000 Hz FREQUENCY RESPONSE
-  - 松压盆
 # General specifications
 nominal_diameter: "15 inch"
 nominal_impedance: "8 Ω"
@@ -28,7 +27,7 @@ frequency_range: "40~3000 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
-cone_material: "Paper"
+cone_material: "Non-pressed paper"
 surround_material: "Cloth"
 magnet_material: "Ferrite"
 basket_material: "Steel"

@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPM-411SF 4 Inch Midrange"
+title: "SPM-411SF 4&quot; Midrange Speaker"
 model: "SPM-411SF"
 sequence: 3
-type: "Tweeter & Midrange"
+type: "Midrange / Full-range"
 images:
   - p1.png
   - p2.png

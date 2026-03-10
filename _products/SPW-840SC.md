@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-840SC 8 Inch Woofer"
+title: "SPW-840SC 8&quot; Woofer"
 model: "SPW-840SC"
 sequence: 6
 type: "Woofer"
@@ -15,7 +15,6 @@ notes:
   - 89.1 dB/SPL SENSITIVITY
   - 200 WATT RMS
   - 58 - 4200 Hz FREQUENCY RESPONSE
-  - 松压盆
 # General specifications
 nominal_diameter: "8 inch"
 nominal_impedance: "8 Ω"
@@ -28,7 +27,7 @@ frequency_range: "58~4200 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
-cone_material: "Paper"
+cone_material: "Non-pressed paper"
 surround_material: "Cloth"
 magnet_material: "Ferrite"
 basket_material: "Steel"

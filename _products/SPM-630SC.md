@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPM-630SC 6.5 Inch Midrange"
+title: "SPM-630SC 6.5&quot; Midrange Speaker"
 model: "SPM-630SC"
 sequence: 4
-type: "Tweeter & Midrange"
+type: "Midrange / Full-range"
 images:
   - p1.png
   - p2.png

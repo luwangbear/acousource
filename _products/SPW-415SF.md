@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-415SF 4 Inch Woofer"
+title: "SPW-415SF 4&quot; Midrange Speaker"
 model: "SPW-415SF"
 sequence: 20
-type: "Woofer"
+type: "Midrange / Full-range"
 images:
   - p1.png
   - p2.png

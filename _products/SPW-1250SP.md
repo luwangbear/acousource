@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1250SP 12 Inch Guitar Woofer"
+title: "SPW-1250SP 12&quot; Guitar Speaker"
 model: "SPW-1250SP"
 sequence: 17
-type: "Woofer"
+type: "Guitar Speaker"
 images:
   - p1.png
   - p2.png

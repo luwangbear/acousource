@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPM-43SP 4 Inch Midrange"
+title: "SPM-43SP 4&quot; Midrange Speaker"
 model: "SPM-43SP"
 sequence: 2
-type: "Tweeter & Midrange"
+type: "Midrange / Full-range"
 images:
   - p1.png
   - p2.png
