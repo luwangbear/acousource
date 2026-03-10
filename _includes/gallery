@@ -26,9 +26,22 @@
 {% endcomment %}
 <div>
     {% assign types = "Tweeter,Midrange / Full-range,Woofer,Subwoofer,Guitar Speaker,Ceiling Speaker,Car Speaker" | split: "," %}
-{% for type in types %}
+    <div class="medium-3 columns">
+        <div class ="panel radius">
+            <h3>Categories</h3>
+            <ul style="list-style-type: none; padding: 0;">
+                {% for type in types %}
+                    <li style="margin-bottom: 5px; margin-top: 5px">
+                        <a href="#{{ type | slugify }}">{{ type }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 
-    <div class="row tab">
+    <div class="medium-9 columns">
+    {% for type in types %}
+    <div class="row tab" id="{{ type | slugify }}">
         <div class="alert-box info">
             {{ type }}
         </div>
@@ -42,11 +55,12 @@
 		<div class="th">
         <a href="{{ site.baseurl }}{{ item.url }}">
 		    <img src="{{ site.urlimg }}{{ item.model }}/thumb.jpg" alt="{{ item.title }}">
-		    <h6 style = "text-align: center"> {{ item.title }}</h6>
+		    <h6 class = "product-title"> {{ item.title }}</h6>
         </a>
 		</div>
 		</li>
 		{% endfor %}
 	</ul>
-{% endfor %}
+    {% endfor %}
+    </div>
 </div>

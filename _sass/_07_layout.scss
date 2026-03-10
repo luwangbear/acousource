@@ -404,3 +404,16 @@ body.video cite { color: #fff; }
     text-align: right;
     color: $ci-1;
 }
+
+.product-title {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.1;
+  height: 2.2em; /* 强制预留两行的高度 */
+
+  /* 以下代码用于超出两行时显示省略号 */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 限制最多显示两行 */
+  -webkit-box-orient: vertical;
+}
