@@ -157,18 +157,18 @@ defaults:
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 # fixme
-favicon-32x32                        : 'thumbnail.png'
-touch-icon-192x192                   : 'thumbnail.png'
-apple-touch-icon-180x180-precomposed : 'thumbnail.png'
-apple-touch-icon-152x152-precomposed : 'thumbnail.png'
-apple-touch-icon-144x144-precomposed : 'thumbnail.png'
-apple-touch-icon-120x120-precomposed : 'thumbnail.png'
-apple-touch-icon-114x114-precomposed : 'thumbnail.png'
-apple-touch-icon-76x76-precomposed   : 'thumbnail.png'
-apple-touch-icon-72x72-precomposed   : 'thumbnail.png'
-apple-touch-icon-precomposed         : 'thumbnail.png'
-msapplication_tileimage              : 'thumbnail.png'
-msapplication_tilecolor              : 'thumbnail.png'
+favicon-96x96                        : 'favicon-96x96.png'
+touch-icon-192x192                   : 'favicon-96x96.png'
+apple-touch-icon-180x180-precomposed : 'favicon-96x96.png'
+apple-touch-icon-152x152-precomposed : 'favicon-96x96.png'
+apple-touch-icon-144x144-precomposed : 'favicon-96x96.png'
+apple-touch-icon-120x120-precomposed : 'favicon-96x96.png'
+apple-touch-icon-114x114-precomposed : 'favicon-96x96.png'
+apple-touch-icon-76x76-precomposed   : 'favicon-96x96.png'
+apple-touch-icon-72x72-precomposed   : 'favicon-96x96.png'
+apple-touch-icon-precomposed         : 'favicon-96x96.png'
+msapplication_tileimage              : 'favicon-96x96.png'
+msapplication_tilecolor              : 'favicon-96x96.png'
 
 
 #       ______                __                __

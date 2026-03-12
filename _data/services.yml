@@ -1,15 +1,15 @@
 - menu_name: "Quick Navigation"
 
 - name: "About Us"
-  url: "/about-us"
+  url: "/about-us/"
   title: "About Us"
 
 - name: "Products"
-  url: "/products"
+  url: "/products/"
   title: "Products"
 
 - name: "OEM Service"
-  url: "/oem-service"
+  url: "/oem-service/"
   title: "OEM Service"
 #
 #- name: "News"
@@ -17,5 +17,5 @@
 #  title: "News"
 
 - name: "Contact Us"
-  url: "/contact"
+  url: "/contact/"
   title: "Contact Us"
