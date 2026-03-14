@@ -12,7 +12,8 @@ Send us Email:
 Emails will be replied within 24 hours during weekdays.  
 
 Feel free to send a message via Whatsapp and WeChat:
-: Whatsapp: +8613385732056   
+: Whatsapp: +8613385732056  
+Whatsapp link: <a href="https://wa.me/message/TNUC36ZNPRLUA1">wa.me/message/TNUC36ZNPRLUA1</a>    
 WeChat: 13385732056
 
 You may also contact us via phone call:  
