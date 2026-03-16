@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "OEM workflow"
+title: "OEM Service"
 permalink: "/oem-service/"
 ---
+Following is the general process for our OEM service.
 
 1. Customer Inquiry
 : We receive physical samples, reference images, specifications or drawings from the customer.
