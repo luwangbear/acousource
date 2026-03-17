@@ -16,8 +16,5 @@ Whatsapp:
 Number: +8613385732056  
 link: <a href="https://wa.me/message/TNUC36ZNPRLUA1">wa.me/message/TNUC36ZNPRLUA1</a>    
 
-WeChat:
-: 13385732056
-
-Phone call:  
+WeChat/Phone call:
 : +86 13385732056
