@@ -7,9 +7,9 @@ model: "SPW-1550SC"
 sequence: 4
 type: "Woofer"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 2 INCH ROUND COPPER VOICE COIL
   - 93.8 dB/SPL SENSITIVITY

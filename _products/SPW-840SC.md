@@ -7,9 +7,9 @@ model: "SPW-840SC"
 sequence: 6
 type: "Woofer"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 1 INCH ROUND COPPER VOICE COIL
   - 89.1 dB/SPL SENSITIVITY

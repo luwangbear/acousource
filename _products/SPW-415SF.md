@@ -7,9 +7,9 @@ model: "SPW-415SF"
 sequence: 20
 type: "Midrange / Full-range"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 1 INCH ROUND COPPER VOICE COIL
   - 85.5 dB/SPL SENSITIVITY

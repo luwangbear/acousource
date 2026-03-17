@@ -7,9 +7,9 @@ model: "SPT-33SP"
 sequence: 1
 type: "Tweeter"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 0.5 INCH ROUND COPPER VOICE COIL
   - 93 dB/SPL SENSITIVITY

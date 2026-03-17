@@ -7,9 +7,9 @@ model: "SPM-411SF"
 sequence: 3
 type: "Midrange / Full-range"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 0.76 INCH ROUND COPPER VOICE COIL
   - 90 dB/SPL SENSITIVITY

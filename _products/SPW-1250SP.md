@@ -7,9 +7,9 @@ model: "SPW-1250SP"
 sequence: 17
 type: "Guitar Speaker"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 1.76 INCH ROUND COPPER VOICE COIL
   - 93 dB/SPL SENSITIVITY

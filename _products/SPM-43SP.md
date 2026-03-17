@@ -7,9 +7,9 @@ model: "SPM-43SP"
 sequence: 2
 type: "Midrange / Full-range"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 0.76 INCH ROUND COPPER VOICE COIL
   - 91 dB/SPL SENSITIVITY

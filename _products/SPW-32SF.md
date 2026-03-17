@@ -7,9 +7,9 @@ model: "SPW-32SF"
 sequence: 19
 type: "Midrange / Full-range"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 0.58 INCH ROUND COPPER VOICE COIL
   - 80 dB/SPL SENSITIVITY

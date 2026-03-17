@@ -7,9 +7,9 @@ model: "SPW-1623PC"
 sequence: 21
 type: "Car Speaker"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 1 INCH ROUND COPPER VOICE COIL
   - 94.7 dB/SPL SENSITIVITY

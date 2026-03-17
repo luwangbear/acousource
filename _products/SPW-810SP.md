@@ -7,9 +7,9 @@ model: "SPW-810SP"
 sequence: 22
 type: "Ceiling Speaker"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 1 INCH ROUND COPPER VOICE COIL
   - 89 dB/SPL SENSITIVITY

@@ -7,9 +7,9 @@ model: "SPM-830SC"
 sequence: 5
 type: "Midrange / Full-range"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 1.5 INCH ROUND COPPER VOICE COIL
   - 92 dB/SPL SENSITIVITY

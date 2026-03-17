@@ -7,9 +7,9 @@ model: "SPW-630SC"
 sequence: 5
 type: "Woofer"
 images:
-  - p1.png
-  - p2.png
-  - p3.png
+  - p1.jpg
+  - p2.jpg
+  - p3.jpg
 notes:
   - 1 INCH ROUND COPPER VOICE COIL
   - 88.4 dB/SPL SENSITIVITY
