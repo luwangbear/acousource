@@ -2,10 +2,10 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-415SF 4&quot; Midrange Speaker"
+title: "SPW-415SF 4&quot; Woofer"
 model: "SPW-415SF"
 sequence: 20
-type: "Midrange / Full-range"
+type: "Woofer"
 images:
   - p1.jpg
   - p2.jpg
@@ -15,6 +15,7 @@ notes:
   - 85.5 dB/SPL SENSITIVITY
   - 60 WATT RMS
   - 90 - 10000 Hz FREQUENCY RESPONSE
+  - DOUBLE MAGNET
 # General specifications
 nominal_diameter: "4 inch"
 nominal_impedance: "8 Ω"
