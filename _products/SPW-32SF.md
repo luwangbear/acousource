@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-32SF 3&quot; Full-Range Speaker"
+title: "SPW-32SF 3&quot; Shielded Speaker"
 model: "SPW-32SF"
 sequence: 19
 type: "Midrange / Full-range"
@@ -15,6 +15,7 @@ notes:
   - 80 dB/SPL SENSITIVITY
   - 20 WATT RMS
   - 800 - 15000 Hz FREQUENCY RESPONSE
+  - FULL SHIELDED
 # General specifications
 nominal_diameter: "3 inch"
 nominal_impedance: "8 Ω"
