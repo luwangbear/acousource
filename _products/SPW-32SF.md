@@ -15,7 +15,7 @@ notes:
   - 80 dB/SPL SENSITIVITY
   - 20 WATT RMS
   - 800 - 15000 Hz FREQUENCY RESPONSE
-  - FULL SHIELDED
+  - FULLY SHIELDED
 # General specifications
 nominal_diameter: "3 inch"
 nominal_impedance: "8 Ω"
@@ -24,7 +24,7 @@ voice_coil_diameter: "0.58 inch"
 power_rating: "10W RMS"
 peak_power: "20W"
 sensitivity: "80.0 dB"
-frequency_range: "800~15000 Hz"
+frequency_range: "300~15000 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
@@ -34,15 +34,15 @@ magnet_material: "Ferrite"
 basket_material: "Steel"
 
 # T/S parameters
-fs: "308.0 Hz"
-re: "5.7 Ω"
-mms: "1.4 g"
-cms: "0.19 mm/N"
-bl: "1.6 N/A"
-qms: "6.19"
-qes: "6.21"
-qts: "3.10"
-vas: "0.1 L"
+fs: "295.5 Hz"
+re: "5.8 Ω"
+mms: "1.3 g"
+cms: "0.22 mm/N"
+bl: "1.5 N/A"
+qms: "6.15"
+qes: "6.35"
+qts: "3.13"
+vas: "0.2 L"
 le: "0.12 mH"
 sd: "22.9 cm²"
 
