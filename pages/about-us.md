@@ -3,12 +3,12 @@ layout              : page
 show_meta           : false
 title               : "About AcouSource Audio"
 permalink           : "/about-us/"
+header:
+    image: "banner2.jpg"
+    background-color: "#334D5C"
+    
 ---
-<div class="row">
-<div class="medium-6 columns{% if page.sidebar == NULL %} medium-offset-3 end{% endif %}{% if page.sidebar == 'left' %} medium-push-4{% endif %}">
-<img src="{{ site.urlimg }}factory.png" alt="">
-</div>
-</div>
+### About AcouSource Audio  
 <br>
 
 Products
