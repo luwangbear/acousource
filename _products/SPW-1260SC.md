@@ -13,7 +13,7 @@ images:
 notes:
   - 2 INCH ROUND COPPER VOICE COIL
   - 92.8 dB/SPL SENSITIVITY
-  - 350 WATT RMS
+  - 250 WATT RMS
   - 60 - 3000 Hz FREQUENCY RESPONSE
 # General specifications
 nominal_diameter: "12 inch"

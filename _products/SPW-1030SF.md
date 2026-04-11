@@ -2,9 +2,9 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1050SC 10&quot; Woofer"
-model: "SPW-1050SC"
-sequence: 7
+title: "SPW-1030SF 8&quot; Woofer"
+model: "SPW-1030SF"
+sequence: 21
 type: "Woofer"
 images:
   - p1.jpg
@@ -12,39 +12,39 @@ images:
   - p3.jpg
 notes:
   - 1.5 INCH ROUND COPPER VOICE COIL
-  - 90.8 dB/SPL SENSITIVITY
-  - 200 WATT RMS
-  - 55 - 3200 Hz FREQUENCY RESPONSE
+  - 89.9 dB/SPL SENSITIVITY
+  - 150 WATT RMS
+  - 35 ~ 4100 Hz FREQUENCY RESPONSE
 # General specifications
 nominal_diameter: "10 inch"
 nominal_impedance: "8 Ω"
-magnet_weight: "50 oz"
+magnet_weight: "30 oz"
 voice_coil_diameter: "1.5 inch"
-power_rating: "200W RMS"
-peak_power: "400W"
-sensitivity: "90.8 dB"
-frequency_range: "55~3200 Hz"
+power_rating: "150W RMS"
+peak_power: "300W"
+sensitivity: "89.9 dB"
+frequency_range: "35~4100 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
-cone_material: "Non-pressed paper"
-surround_material: "Cloth"
+cone_material: "PP"
+surround_material: "Foam"
 magnet_material: "Ferrite"
 basket_material: "Steel"
 
 # T/S parameters
-fs: "67.6 Hz"
-re: "6.9 Ω"
-mms: "41.3 g"
-cms: "0.13 mm/N"
-bl: "11.7 N/A"
-qms: "5.14"
-qes: "0.88"
-qts: "0.75"
-vas: "22.5 L"
-le: "0.57 mH"
-sd: "346.4 cm²"
+fs: "47.7 Hz"
+re: "7.3 Ω"
+mms: "37.3 g"
+cms: "0.30 mm/N"
+bl: "9.4 N/A"
+qms: "3.60"
+qes: "0.93"
+qts: "0.74"
+vas: "55.0 L"
 
+le: "0.32 mH"
+sd: "363.1 cm²"
 # eta_0: "1.2 %"
 
 #shipping and mounting

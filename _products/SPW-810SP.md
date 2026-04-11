@@ -13,7 +13,7 @@ images:
 notes:
   - 1 INCH ROUND COPPER VOICE COIL
   - 89 dB/SPL SENSITIVITY
-  - 60 WATT RMS
+  - 50 WATT RMS
   - 100 - 4000 Hz FREQUENCY RESPONSE
   - Equipped with mounting points for a matching transformer
   - Whizzer cone for extended high-frequency response

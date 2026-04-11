@@ -13,7 +13,7 @@ images:
 notes:
   - 0.76 INCH ROUND COPPER VOICE COIL
   - 91 dB/SPL SENSITIVITY
-  - 30 WATT RMS
+  - 15 WATT RMS
   - 750 - 11000 Hz FREQUENCY RESPONSE
 # General specifications
 nominal_diameter: "4 inch"
