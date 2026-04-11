@@ -15,8 +15,8 @@ notes:
   - 89 dB/SPL SENSITIVITY
   - 50 WATT RMS
   - 100 - 4000 Hz FREQUENCY RESPONSE
-  - Equipped with mounting points for a matching transformer
-  - Whizzer cone for extended high-frequency response
+  - EQUIPPED WITH MOUNTING POINTS FOR A MATCHING TRANSFORMER
+  - DUAL-CONE DESIGN WITH WHIZZER
 # General specifications
 nominal_diameter: "8 inch"
 nominal_impedance: "8 Ω"
