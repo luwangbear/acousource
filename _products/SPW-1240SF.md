@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1240SF 8&quot; Woofer"
+title: "SPW-1240SF 12&quot; Woofer"
 model: "SPW-1240SF"
 sequence: 22
 type: "Woofer"

@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1030SF 8&quot; Woofer"
+title: "SPW-1030SF 10&quot; Woofer"
 model: "SPW-1030SF"
 sequence: 21
 type: "Woofer"
