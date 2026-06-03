@@ -32,6 +32,10 @@ surround_material: "Paper"
 magnet_material: "Ferrite"
 basket_material: "Steel"
 
+quantity: 45
+size: "39 cm × 38.5 cm ×25 cm"
+weight: "14.3 kg"
+
 # T/S parameters
 fs: "2000 Hz"
 re: "6.6 Ω"

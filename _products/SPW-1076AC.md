@@ -47,6 +47,10 @@ le: "0.99 mH"
 sd: "339.8 cm²"
 # eta_0: "1.2 %"
 
+quantity: 2
+size: "32 cm × 31 cm × 30 cm"
+weight: "14 kg"
+
 #shipping and mounting
 #overall_diameter: "210 mm"
 #depth: "147/5.79 (mm/in)"

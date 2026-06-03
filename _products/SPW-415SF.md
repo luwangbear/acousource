@@ -48,6 +48,10 @@ sd: "55.4 cm²"
 
 # eta_0: "1.2 %"
 
+quantity: 18
+size: "38.5 cm × 26 cm × 28.5 cm"
+weight: "13.5 kg"
+
 #shipping and mounting
 #overall_diameter: "210 mm"
 #depth: "147/5.79 (mm/in)"
