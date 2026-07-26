@@ -13,7 +13,7 @@ Emails will be replied within 24 hours during weekdays.
 
 Whatsapp: 
 : 
-Number: +8613385732056  
++86 13385732056  
 link: <a href="https://wa.me/message/TNUC36ZNPRLUA1">wa.me/message/TNUC36ZNPRLUA1</a>    
 
 WeChat/Phone call:
