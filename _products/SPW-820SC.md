@@ -5,7 +5,7 @@ header: no
 title: "SPW-820SC 8&quot; Woofer"
 model: "SPW-820SC"
 sequence: 1
-type: "Woofer"
+type: "Woofer with Steel Basket"
 images:
   - p1.jpg
   - p2.jpg

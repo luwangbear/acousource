@@ -160,7 +160,7 @@ format: product
                             <th>Equivalent air volume(Vas)</th>
                             <td>{{ page.vas }}</td>
                         </tr>
-                        <tr>
+                        <tr {% unless page.le %} hidden{% endunless %}>
                             <th>Voice coil Inductance(Le)</th>
                             <td>{{ page.le }}</td>
                         </tr>

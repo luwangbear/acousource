@@ -5,7 +5,7 @@ header: no
 title: "SPW-1570SC 15&quot; Woofer"
 model: "SPW-1570SC"
 sequence: 9
-type: "Woofer"
+type: "Woofer with Steel Basket"
 images:
   - p1.jpg
   - p2.jpg

@@ -5,7 +5,7 @@ header: no
 title: "SPW-1240SF 12&quot; Woofer"
 model: "SPW-1240SF"
 sequence: 22
-type: "Woofer"
+type: "Woofer with Steel Basket"
 images:
   - p1.jpg
   - p2.jpg

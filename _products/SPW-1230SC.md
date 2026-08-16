@@ -5,7 +5,7 @@ header: no
 title: "SPW-1230SC 12&quot; Woofer"
 model: "SPW-1230SC"
 sequence: 3
-type: "Woofer"
+type: "Woofer with Steel Basket"
 images:
   - p1.jpg
   - p2.jpg

@@ -5,7 +5,7 @@ header: no
 title: "SPW-415SF 4&quot; Woofer"
 model: "SPW-415SF"
 sequence: 23
-type: "Woofer"
+type: "Woofer with Steel Basket"
 images:
   - p1.jpg
   - p2.jpg

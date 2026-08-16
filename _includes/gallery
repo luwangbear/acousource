@@ -25,7 +25,7 @@
 *
 {% endcomment %}
 <div>
-    {% assign types = "Tweeter,Midrange / Full-range,Woofer,Subwoofer,Guitar Speaker,Ceiling Speaker,Car Speaker" | split: "," %}
+    {% assign types = "Tweeter,Midrange / Full-range,Woofer with Steel Basket,Woofer with Aluminum Basket,Subwoofer,Guitar Speaker,Ceiling Speaker,Car Speaker" | split: "," %}
     <div class="medium-3 columns">
         <div class ="panel radius">
             <h3>Categories</h3>

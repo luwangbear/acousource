@@ -5,7 +5,7 @@ header: no
 title: "SPW-1260SC 12&quot; woofer"
 model: "SPW-1260SC"
 sequence: 8
-type: "Woofer"
+type: "Woofer with Steel Basket"
 images:
   - p1.jpg
   - p2.jpg
