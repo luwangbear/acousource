@@ -2,8 +2,8 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPF-44SF 4&quot; Full-range Speaker"
-model: "SPF-44SF"
+title: "SPF-54SF 4&quot; Full-range Speaker"
+model: "SPF-54SF"
 sequence: 23
 type: "Midrange / Full-range"
 images:
@@ -15,14 +15,14 @@ notes:
   - 5 WATT RMS
   - 100 ~ 18000 Hz FREQUENCY RESPONSE
 # General specifications
-nominal_diameter: "4 inch"
+nominal_diameter: "5 inch"
 nominal_impedance: "4 Ω"
 magnet_weight: "4 oz"
 voice_coil_diameter: "0.75 inch"
-power_rating: "5W RMS"
-peak_power: "10W"
-sensitivity: "89 dB"
-frequency_range: "100 ~ 18000 Hz"
+power_rating: "30W RMS"
+peak_power: "60W"
+sensitivity: "86 dB"
+frequency_range: "100 ~ 20000 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
@@ -32,16 +32,16 @@ magnet_material: "Ferrite"
 basket_material: "Steel"
 
 # T/S parameters
-fs: "125.3 Hz"
-re: "2.7 Ω"
-mms: "4.4 g"
-cms: "0.36 mm/N"
-bl: "2.9 N/A"
-qms: "3.96"
-qes: "1.12"
-qts: "0.87"
-vas: "2.9 L"
-le: "0.1 mH"
+fs: "120.6 Hz"
+re: "3.0 Ω"
+mms: "4.2 g"
+cms: "0.42 mm/N"
+bl: "1.8 N/A"
+qms: "6.9"
+qes: "2.87"
+qts: "2.03"
+vas: "3.2 L"
+#le: "0.1 mH"
 #sd: "22.9 cm²"
 # eta_0: "1.2 %"
 
