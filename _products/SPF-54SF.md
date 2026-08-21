@@ -9,6 +9,7 @@ type: "Midrange / Full-range"
 images:
   - p1.jpg
   - p2.jpg
+  - p3.jpg
 notes:
   - 0.75 INCH ROUND COPPER VOICE COIL
   - 89 dB/SPL SENSITIVITY
