@@ -12,9 +12,9 @@ images:
   - p3.jpg
 notes:
   - 1.5 INCH ROUND COPPER VOICE COIL
-  - 88 dB/SPL SENSITIVITY
+  - 89 dB/SPL SENSITIVITY
   - 50 WATT RMS
-  - 55 - 9000 Hz FREQUENCY RESPONSE
+  - 60 - 9000 Hz FREQUENCY RESPONSE
 # General specifications
 nominal_diameter: "8 inch"
 nominal_impedance: "8 Ω"
@@ -22,8 +22,8 @@ magnet_weight: "3 oz"
 voice_coil_diameter: "1.5 inch"
 power_rating: "60W RMS"
 peak_power: "120W"
-sensitivity: "88 dB"
-frequency_range: "55~9000 Hz"
+sensitivity: "89 dB"
+frequency_range: "60~9000 Hz"
 
 coil_material: "Round Copper"
 former_material: "Aluminum"
