@@ -4,7 +4,7 @@ breadcrumb: true
 header: no
 title: "SPW-1076AC 10&quot; Woofer"
 model: "SPW-1076AC"
-sequence: 10
+sequence: 1
 type: "Woofer with Aluminum Basket"
 images:
   - p1.jpg
