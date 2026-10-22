@@ -47,9 +47,9 @@ vas: "107.2 L"
 sd: "500 cm²"
 # eta_0: "1.2 %"
 
-#quantity: 8
-#size: "56.5 cm × 56 cm × 28 cm"
-#weight: "18 kg"
+quantity: 2
+size: "35.5 cm × 35 cm × 38 cm"
+weight: "13.5 kg"
 
 #shipping and mounting
 #overall_diameter: "210 mm"

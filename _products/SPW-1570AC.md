@@ -47,9 +47,9 @@ vas: "164.0 L"
 sd: "860 cm²"
 # eta_0: "1.2 %"
 
-#quantity: 8
-#size: "56.5 cm × 56 cm × 28 cm"
-#weight: "18 kg"
+quantity: 2
+size: "43 cm × 42.5 cm × 41 cm"
+weight: "17.5 kg"
 
 #shipping and mounting
 #overall_diameter: "210 mm"
