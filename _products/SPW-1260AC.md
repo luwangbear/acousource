@@ -18,7 +18,7 @@ notes:
 # General specifications
 nominal_diameter: "12 inch"
 nominal_impedance: "8 Ω"
-magnet_weight: "50 oz"
+magnet_weight: "60 oz"
 voice_coil_diameter: "2.4 inch"
 power_rating: "300W RMS"
 peak_power: "600W"
