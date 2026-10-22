@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1260AC 10&quot; Woofer"
+title: "SPW-1260AC 12&quot; Woofer"
 model: "SPW-1260AC"
 sequence: 6
 type: "Woofer with Aluminum Basket"

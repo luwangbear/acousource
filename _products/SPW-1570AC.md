@@ -2,7 +2,7 @@
 layout: product
 breadcrumb: true
 header: no
-title: "SPW-1570AC 10&quot; Woofer"
+title: "SPW-1570AC 15&quot; Woofer"
 model: "SPW-1570AC"
 sequence: 7
 type: "Woofer with Aluminum Basket"
